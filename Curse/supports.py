@@ -1,7 +1,7 @@
 from Curse import DEV_USERS, OWNER_ID, SUDO_USERS, WHITELIST_USERS
 from Curse.database.support_db import SUPPORTS
 
-from Curse.vars import support_class
+
 from some_modules.some_function import some_function 
 
 # Initialize and use the support object
