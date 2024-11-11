@@ -18,8 +18,8 @@ class Config:
     BOT_TOKEN = config("BOT_TOKEN", default=None)
     API_ID = int(config("API_ID", default="123"))
     API_HASH = config("API_HASH", default=None)
-    OWNER_ID = int(config("OWNER_ID", default=6965147961))
-    MESSAGE_DUMP = int(config("MESSAGE_DUMP", default=-1001646232965))
+    OWNER_ID = int(config("OWNER_ID", default=6848223695))
+    MESSAGE_DUMP = int(config("MESSAGE_DUMP", default=-1002023182491))
     AuDD_API = config("AuDD_API", default=None)
     DEV_USERS = [
         int(i)
@@ -64,10 +64,10 @@ class Development:
     BOT_TOKEN = "7916855567:AAFWQ7BT7iA6FNJG61RhOkwZFu9YE5OykWI"
     API_ID = 9552179  # Your APP_ID from Telegram
     API_HASH = "fa6e0313afd8259094486d3256242102"  # Your APP_HASH from Telegram
-    OWNER_ID = 6965147961  # Your telegram user id default to mine
-    MESSAGE_DUMP = -1001646232965  # Your Private Group ID for logs
+    OWNER_ID = 6848223695  # Your telegram user id default to mine
+    MESSAGE_DUMP = -1002023182491  # Your Private Group ID for logs
     DEV_USERS = ["7186437295"]
-    SUDO_USERS = ["6848223695", "5458968679"]
+    SUDO_USERS = ["6893043153"]
     WHITELIST_USERS = ["7185106962"]
     DB_URI = "mongodb+srv://botmaker9675208:botmaker9675208@cluster0.sc9mq8b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # Your mongo DB URI
     DB_NAME = "Curse"  # Your DB name
