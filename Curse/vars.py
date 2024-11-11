@@ -74,7 +74,7 @@ class Development:
     NO_LOAD = []
     GENIUS_API_TOKEN = "gIgMyTXuwJoY9VCPNwKdb_RUOA_9mCMmRlbrrdODmNvcpslww_2RIbbWOB8YdBW9"
     RMBG_API = ""
-    PREFIX_HANDLER = ["!", ".", "Komi ", "komi "]
+    PREFIX_HANDLER = ["!", ".", "gojo ", "gojo "]
     SUPPORT_GROUP = "nothing_bots_support"
     SUPPORT_CHANNEL = "The_Hogwart"
     VERSION = "3.O"
