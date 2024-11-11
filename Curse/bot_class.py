@@ -12,7 +12,9 @@ from Curse import (API_HASH, API_ID, BDB_URI, BOT_TOKEN, LOG_DATETIME,
 from Curse.database import MongoDB
 from Curse.plugins import all_plugins
 from Curse.plugins.scheduled_jobs import *
+from Curse.supports import *
 from Curse.vars import Config
+
 INITIAL_LOCK = RLock()
 
 # Check if MESSAGE_DUMP is correct
@@ -52,14 +54,14 @@ class app(Client):
         )
         meh = await self.get_me()  # Get bot info from pyrogram client
         LOGGER.info("Starting bot...")
-        Config.BOT_ID = "5959061711"
-        Config.BOT_NAME = "KOMI"
-        Config.BOT_USERNAME = "Komi_RoxBot"
+        Config.BOT_ID = meh.id
+        Config.BOT_NAME = meh.first_name
+        Config.BOT_USERNAME = meh.username
         startmsg = await self.send_message(MESSAGE_DUMP, "<i>Starting Bot...</i>")
 
         # Show in Log that bot has started
         LOGGER.info(
-            f"Pyrogram v{__version__} (Layer - {layer}) started on @{bot_username}",
+            f"Pyrogram v{__version__} (Layer - {layer}) started on {meh.username}",
         )
         LOGGER.info(f"Python Version: {python_version()}\n")
 
