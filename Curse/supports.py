@@ -2,21 +2,13 @@ from Curse import DEV_USERS, OWNER_ID, SUDO_USERS, WHITELIST_USERS
 from Curse.database.support_db import SUPPORTS
 
 
-from some_modules.some_function import some_function 
-
-# Initialize and use the support object
 async def load_support_users():
-    support = SupportClass()  # Initialize your support class here
-    support_users = '1643851457' , '6848223695'  # Example data
-
-    # Split the users and add them
-    user_ids = support_users.split(',')
-    for i in user_ids:
-        i = i.strip()
-        support.insert_support_user(int(i), "dev")  # Insert user with role "dev"
+    support = SUPPORTS()
+    for i in DEV_USERS:
+        support.insert_support_user(int(i),"dev")
+    for i in SUDO_USERS:
         support.insert_support_user(int(i),"sudo")
     for i in WHITELIST_USERS:
-        
         support.insert_support_user(int(i),"whitelist")
     return
 
