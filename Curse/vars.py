@@ -81,6 +81,6 @@ class Development:
     TIME_ZONE = 'Asia/Kolkata'
     BDB_URI = "mongodb+srv://orewauzumaki:orewauzumaki@cluster0.bmhengh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     WORKERS = 8
-    BOT_USERNAME = "Komi_RoXbot"
+    BOT_USERNAME = "gojo_x_management_bot"
     BOT_ID = "7916855567"
     AuDD_API = ""
