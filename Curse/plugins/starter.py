@@ -107,7 +107,6 @@ async def start(c: app, m: Message):
             if len(help_option.split("_",1)) == 2:
                 if help_option.split("_")[1] == "help":
                     await m.reply_photo(
-                        photo="https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg",
                         caption=help_msg,
                         parse_mode=enums.ParseMode.MARKDOWN,
                         reply_markup=help_kb,
@@ -117,7 +116,7 @@ async def start(c: app, m: Message):
                 
         try:
             cpt = f"""
-────「  Hᴏɢᴡᴀʀᴛꜱ  」────
+────「  [Hᴏɢᴡᴀʀᴛꜱ](https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg) 」────
 ❂ ʜᴇʟʟᴏ [{m.from_user.first_name}](http://t.me/{m.from_user.username})...,
 ×⋆✦⋆──────────────⋆✦⋆×
 ɪ ᴀᴍ ᴋᴏᴍɪ ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ 
