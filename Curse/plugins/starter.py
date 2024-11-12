@@ -107,7 +107,7 @@ async def start(c: app, m: Message):
             if len(help_option.split("_",1)) == 2:
                 if help_option.split("_")[1] == "help":
                     await m.reply_photo(
-                        photo=str(choice("https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg")),
+                        photo="https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg",
                         caption=help_msg,
                         parse_mode=enums.ParseMode.MARKDOWN,
                         reply_markup=help_kb,
@@ -147,7 +147,7 @@ async def start(c: app, m: Message):
       )
         
       await m.reply_photo(
-        photo=str(choice("https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg")),
+        photo="https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg",
         caption="I'm alive :3",
         reply_markup=kb,
         quote=True,
@@ -203,7 +203,7 @@ Yᴏᴜ ᴄᴀɴ ᴜsᴇ`$` ᴀɴᴅ `!` ɪɴ ᴘʟᴀᴄᴇᴄ ᴏғ / ᴀs ʏ�
     #     pass
     # except QueryIdInvalid:
     #     await q.message.reply_photo(
-    #         photo=str(choice("https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg")), caption=cpt, reply_markup=keyboard
+    #         photo="https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg", caption=cpt, reply_markup=keyboard
     #     )
 
     # await q.answer()
@@ -231,7 +231,7 @@ async def help_menu(_, m: Message):
                     help_msg, parse_mode=enums.ParseMode.MARKDOWN, quote=True
                 )
             await m.reply_photo(
-                photo=str(choice("https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg")),
+                photo="https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg",
                 caption=help_msg,
                 parse_mode=enums.ParseMode.MARKDOWN,
                 reply_markup=help_kb,
