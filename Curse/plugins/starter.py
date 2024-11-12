@@ -48,7 +48,7 @@ Yᴏᴜ ᴄᴀɴ ᴅᴏɴᴀᴛᴇ ʙʏ ᴄᴏɴᴛᴀᴄᴛɪɴɢ ᴍʏ ᴏᴡ�
     ),
 
     LOGGER.info(f"{m.from_user.id} fetched donation text in {m.chat.id}")
-    await m.reply_photo(photo=str(choice(StartPic)), caption=cpt)
+    await m.reply_photo(photo=str(choice("https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg")), caption=cpt)
     return
 
 
@@ -97,7 +97,7 @@ async def start(c: app, m: Message):
                 return
             elif help_msg:
                 await m.reply_photo(
-                    photo=str(choice(https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg)),
+                    photo=str(choice("https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg")),
                     caption=help_msg,
                     parse_mode=enums.ParseMode.MARKDOWN,
                     reply_markup=help_kb,
