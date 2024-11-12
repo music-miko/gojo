@@ -35,12 +35,12 @@ Yᴏᴜʀ ᴅᴏɴᴀᴛɪᴏɴ ᴍɪɢʜᴛ ᴀʟsᴏ ᴍᴇ ɢᴇᴛ ᴍᴇ �
 
 Aʟʟ ᴛʜᴇ ғᴜɴᴅ ᴡᴏᴜʟᴅ ʙᴇ ᴘᴜᴛ ɪɴᴛᴏ ᴍʏ sᴇʀᴠɪᴄᴇs sᴜᴄʜ ᴀs ᴅᴀᴛᴀʙᴀsᴇ, sᴛᴏʀᴀɢᴇ ᴀɴᴅ ʜᴏsᴛɪɴɢ!
 
-Yᴏᴜ ᴄᴀɴ ᴅᴏɴᴀᴛᴇ ʙʏ ᴄᴏɴᴛᴀᴄᴛɪɴɢ ᴍʏ ᴏᴡɴᴇʀ: [ 𝑲𝒂𝒓𝒂𝒏 ](https://t.me/HUNTER_KARAN)
+Yᴏᴜ ᴄᴀɴ ᴅᴏɴᴀᴛᴇ ʙʏ ᴄᴏɴᴛᴀᴄᴛɪɴɢ ᴍʏ ᴏᴡɴᴇʀ: [ 𝘿𝙖𝙢𝙞𝙖𝙣❤‍🩹 ](https://t.me/its_damiann)
      """,
   reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("𝗗𝗢𝗡𝗔𝗧𝗘 𝗡𝗢𝗪", url="https://t.me/HUNTER_KARAN"),
+                    InlineKeyboardButton("𝗗𝗢𝗡𝗔𝗧𝗘 𝗡𝗢𝗪", url="https://t.me/its_damiann"),
                 ],
                 [InlineKeyboardButton("𝗕𝗔𝗖𝗞", callback_data="start_back")],
             ],
@@ -97,7 +97,7 @@ async def start(c: app, m: Message):
                 return
             elif help_msg:
                 await m.reply_photo(
-                    photo=str(choice(StartPic)),
+                    photo=str(choice(https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg)),
                     caption=help_msg,
                     parse_mode=enums.ParseMode.MARKDOWN,
                     reply_markup=help_kb,
@@ -107,7 +107,7 @@ async def start(c: app, m: Message):
             if len(help_option.split("_",1)) == 2:
                 if help_option.split("_")[1] == "help":
                     await m.reply_photo(
-                        photo=str(choice(StartPic)),
+                        photo=str(choice(https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg)),
                         caption=help_msg,
                         parse_mode=enums.ParseMode.MARKDOWN,
                         reply_markup=help_kb,
@@ -117,7 +117,7 @@ async def start(c: app, m: Message):
                 
         try:
             cpt = f"""
-────「  ᴋᴏᴍɪ  」────
+────「  Hᴏɢᴡᴀʀᴛꜱ  」────
 ❂ ʜᴇʟʟᴏ [{m.from_user.first_name}](http://t.me/{m.from_user.username})...,
 ×⋆✦⋆──────────────⋆✦⋆×
 ɪ ᴀᴍ ᴋᴏᴍɪ ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ 
@@ -127,7 +127,7 @@ async def start(c: app, m: Message):
 ᴄʟɪᴄᴋ ᴏɴ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ!"""
 
             await m.reply_photo(
-                photo=str(choice(StartPic)),
+                photo=str(choice(https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg)),
                 caption=cpt,
                 reply_markup=(await gen_start_kb(m)),
                 quote=True,
@@ -147,7 +147,7 @@ async def start(c: app, m: Message):
       )
         
       await m.reply_photo(
-        photo=str(choice(StartPic)),
+        photo=str(choice(https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg)),
         caption="I'm alive :3",
         reply_markup=kb,
         quote=True,
@@ -159,7 +159,7 @@ async def start(c: app, m: Message):
 async def start_back(_, q: CallbackQuery):
     try:
         cpt = f"""
-────「  ᴋᴏᴍɪ  」────
+────「  Hᴏɢᴡᴀʀᴛꜱ  」────
 ❂ ʜᴇʟʟo [{q.from_user.first_name}](http://t.me/{q.from_user.username})...,
 ×⋆✦⋆──────────────⋆✦⋆×
 ɪ ᴀᴍ ᴋᴏᴍɪ ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ 
@@ -184,7 +184,7 @@ async def commands_menu(_, q: CallbackQuery):
     # keyboard = ikb(ou, True)
     # try:
         cpt = f"""
-ʜᴇʟʟᴏ **[{q.from_user.first_name}](http://t.me/{q.from_user.username})**! I am ᴋᴏᴍɪ✨.
+ʜᴇʟʟᴏ **[{q.from_user.first_name}](http://t.me/{q.from_user.username})**✨.
 I'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ(s)!
 Cᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ:
 × /start: Sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
@@ -203,7 +203,7 @@ Yᴏᴜ ᴄᴀɴ ᴜsᴇ`$` ᴀɴᴅ `!` ɪɴ ᴘʟᴀᴄᴇᴄ ᴏғ / ᴀs ʏ�
     #     pass
     # except QueryIdInvalid:
     #     await q.message.reply_photo(
-    #         photo=str(choice(StartPic)), caption=cpt, reply_markup=keyboard
+    #         photo=str(choice(https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg)), caption=cpt, reply_markup=keyboard
     #     )
 
     # await q.answer()
@@ -231,7 +231,7 @@ async def help_menu(_, m: Message):
                     help_msg, parse_mode=enums.ParseMode.MARKDOWN, quote=True
                 )
             await m.reply_photo(
-                photo=str(choice(StartPic)),
+                photo=str(choice(https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg)),
                 caption=help_msg,
                 parse_mode=enums.ParseMode.MARKDOWN,
                 reply_markup=help_kb,
@@ -240,7 +240,7 @@ async def help_menu(_, m: Message):
         else:
 
             await m.reply_photo(
-                photo=str(choice(StartPic)),
+                photo=str(choice(https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg)),
                 caption=f"Press the button below to get help for <i>{help_option}</i>",
                 reply_markup=InlineKeyboardMarkup(
                   [
@@ -257,7 +257,7 @@ async def help_menu(_, m: Message):
 
         if m.chat.type == ChatType.PRIVATE:
             msg = f"""
-Aʜᴏʏ **[{m.from_user.first_name}](http://t.me/{m.from_user.username})**!I am Kᴏᴍɪ✨.
+Aʜᴏʏ **[{m.from_user.first_name}](http://t.me/{m.from_user.username})**✨.
 I'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ(s)!
 Cᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ:
 × /start: Sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
@@ -276,7 +276,7 @@ Cᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ:
             msg = "Contact me in PM to get the list of possible commands."
 
         await m.reply_photo(
-            photo=str(choice(StartPic)),
+            photo=str(choice(https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg)),
             caption=msg,
             reply_markup = InlineKeyboardMarkup(
                     paginate_modules(0, HELP_COMMANDS, "help")
@@ -347,8 +347,8 @@ async def handle_details_callback(_, query: CallbackQuery):
 async def handle_how_to_use_callback(_, query: CallbackQuery):
     await query.answer()
     await query.message.edit_text(
-     """Nᴇᴡ ᴛᴏ Kᴏᴍɪ! Hᴇʀᴇ ɪs ᴛʜᴇ Qᴜɪᴄᴋ Sᴛᴀʀᴛ Gᴜɪᴅᴇ
-     Wʜɪᴄʜ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ ᴛᴏ Uɴᴅᴇʀsᴛᴀɴᴅ Wʜᴀᴛ ɪs Kᴏᴍɪ 
+     """Nᴇᴡ ᴛᴏ ˹Hᴏɢᴡᴀʀᴛꜱ˼! Hᴇʀᴇ ɪs ᴛʜᴇ Qᴜɪᴄᴋ Sᴛᴀʀᴛ Gᴜɪᴅᴇ
+     Wʜɪᴄʜ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ ᴛᴏ Uɴᴅᴇʀsᴛᴀɴᴅ Wʜᴀᴛ ɪs ˹Hᴏɢᴡᴀʀᴛꜱ˼ 
      ᴀɴᴅ Hᴏᴡ ᴛᴏ Usᴇ Iᴛ.
      Cʟɪᴄᴋ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴ ᴛᴏ Aᴅᴅ Bᴏᴛ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘ.
      Bᴀsɪᴄ Tᴏᴜʀ Sᴛᴀʀᴛᴇᴅ ᴛᴏ Kɴᴏᴡ Aʙᴏᴜᴛ Hᴏᴡ ᴛᴏ Usᴇ ME
@@ -366,7 +366,7 @@ async def handle_how_to_use_callback(_, query: CallbackQuery):
 @app.on_callback_query(filters.regex(r"help_(.*?)"))
 async def help_button(_,query):  
     HELP_STRINGS = f"""
-🫧 Kᴏᴍɪ 🫧
+🪄 ˹Hᴏɢᴡᴀʀᴛꜱ˼ 🪄
 
 ☉ Hᴇʀᴇ, ʏᴏᴜ ᴡɪʟʟ ғɪɴᴅ ᴀ ʟɪsᴛ ᴏғ ᴀʟʟ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.
 
