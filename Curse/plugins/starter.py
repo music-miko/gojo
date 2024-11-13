@@ -109,7 +109,7 @@ async def start(c: app, m: Message):
                         caption:=help_msg,
                         parse_mode:=enums.ParseMode.MARKDOWN,
                         reply_markup:=help_kb,
-                        quote=True,
+                        quote:=True,
                     ) 
                     return
                 
