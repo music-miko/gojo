@@ -97,18 +97,18 @@ async def start(c: app, m: Message):
                 return
             elif help_msg:
                 await (
-                    caption=help_msg,
-                    parse_mode=enums.ParseMode.MARKDOWN,
-                    reply_markup=help_kb,
-                    quote=True,
+                    caption:=help_msg,
+                    parse_mode:=enums.ParseMode.MARKDOWN,
+                    reply_markup:=help_kb,
+                    quote:=True,
                 )
                 return
             if len(help_option.split("_",1)) == 2:
                 if help_option.split("_")[1] == "help":
                     await (
-                        caption=help_msg,
-                        parse_mode=enums.ParseMode.MARKDOWN,
-                        reply_markup=help_kb,
+                        caption:=help_msg,
+                        parse_mode:=enums.ParseMode.MARKDOWN,
+                        reply_markup:=help_kb,
                         quote=True,
                     ) 
                     return
@@ -125,9 +125,9 @@ async def start(c: app, m: Message):
 ᴄʟɪᴄᴋ ᴏɴ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ!"""
 
             await (
-                caption=cpt,
-                reply_markup=(await gen_start_kb(m)),
-                quote=True,
+                caption:=cpt,
+                reply_markup:=(await gen_start_kb(m)),
+                quote:=True,
             )
         except UserIsBlocked:
             LOGGER.warning(f"Bot blocked by {m.from_user.id}")
