@@ -96,8 +96,7 @@ async def start(c: app, m: Message):
             if not help_msg:
                 return
             elif help_msg:
-                await m.reply_photo(
-                    photo=str(choice("https://telegra.ph/file/93f314ee10bce25cc6b5a-b90ed5fa26a13068e8.jpg")),
+                await (
                     caption=help_msg,
                     parse_mode=enums.ParseMode.MARKDOWN,
                     reply_markup=help_kb,
@@ -106,7 +105,7 @@ async def start(c: app, m: Message):
                 return
             if len(help_option.split("_",1)) == 2:
                 if help_option.split("_")[1] == "help":
-                    await m.(
+                    await (
                         caption=help_msg,
                         parse_mode=enums.ParseMode.MARKDOWN,
                         reply_markup=help_kb,
@@ -125,7 +124,7 @@ async def start(c: app, m: Message):
 ×⋆✦⋆──────────────⋆✦⋆×
 ᴄʟɪᴄᴋ ᴏɴ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ!"""
 
-            await m.(
+            await (
                 caption=cpt,
                 reply_markup=(await gen_start_kb(m)),
                 quote=True,
