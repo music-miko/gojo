@@ -44,7 +44,7 @@ from Curse.utils.parser import mention_html
 from Curse.vars import Config
 
 SUPPORT_STAFF = get_support_staff()
-C_HANDLER = ["/", "komi ", "Komi ", "."]
+C_HANDLER = ["/", "harry ", "harry ", "."]
 
 @app.on_message(filters.command(["adminlist"], C_HANDLER) & admin_filter)
 async def adminlist_show(_, m: Message):
