@@ -16,7 +16,7 @@ async def _left_mem(client, message):
     last_name = user.last_name or ""
     user_link = f"[{first_name} {last_name}](tg://user?id={user_id})"
 
-    video_url = "https://telegra.ph//file/394abefdcb0de0b1f04f2.mp4"
+    video_url = "https://envs.sh/Lwt.mp4"
 
     text = f"Gᴏᴏᴅ Bʏᴇ {user_link} Nᴏ Oɴᴇ Wɪʟʟ Mɪss Yᴏᴜ 💕"
     
