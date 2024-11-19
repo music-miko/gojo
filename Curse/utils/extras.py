@@ -609,10 +609,10 @@ StartPic = [
     "https://telegra.ph/file/4c084548a6b20b61f3562-670419d5ecb80b7d0a.jpg",
     "https://telegra.ph/file/c4a98c40a65e378001e36-ad4f925a6a051f0649.jpg",
     "https://telegra.ph/file/12a70be5ce2ef0390c283-6471cefed0a23c07af.jpg",
-    "https://telegra.ph/file/8951ce0dba36072c690d8.jpg",
-    "https://telegra.ph/file/1328af117e246cd951272.jpg",
-    "https://telegra.ph/file/155843e15b13268b79181.jpg",
-    "https://telegra.ph/file/25673897c21ace9685ea3.jpg",
+    "https://telegra.ph/file/7df2de352a15bb476687d-6028f1319812b91775.jpg",
+    "https://telegra.ph/file/50c278726f7813cb462e0-c8316bccb5dcf7eb94.jpg",
+    "https://telegra.ph/file/31caba1a922f23ea9b47c-ed6d092f5b11bb35a7.jpg",
+    "https://telegra.ph/file/50c278726f7813cb462e0-c8316bccb5dcf7eb94.jpg",
 ]
 
 
