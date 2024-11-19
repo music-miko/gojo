@@ -5,7 +5,7 @@ from pyrogram import filters
 #Name -> Your Bots File Name (Eg. From Liaa import pbot as app)
 from Curse import pbot as app
 
-C_HANDLER = ["/", "komi ", "Komi ", "."]
+C_HANDLER = ["/", "harry ", "harry ", "."]
 
 @app.on_message(filters.command(["upscale"], C_HANDLER), group=12321)
 async def upscale_image(client, message):
