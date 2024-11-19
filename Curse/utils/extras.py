@@ -556,20 +556,20 @@ INSULT_STRINGS = [
 BAN_GIFS = [
     "https://envs.sh/Lwu.mp4",
     "https://envs.sh/5Y9.mp4",
-    "https://telegra.ph/file/5612ba8d79f805afc5445.mp4",
+    "https://envs.sh/5Cz.mp4",
 ]
 
 
 KICK_GIFS = [
-    "https://telegra.ph//file/79a6c527e6e6d530bcdc8.mp4",
-    "https://telegra.ph/file/60f2f2bfc7d6f040a3018.mp4",
-    "https://telegra.ph/file/18ab95aa73f4c4f0a5378.mp4",
+    "https://envs.sh/5C3.mp4",
+    "https://envs.sh/5Y9.mp4",
+    "https://envs.sh/5CY.mp4",
 ]
 
 
 MUTE_GIFS = [
-    "https://telegra.ph//file/b4faf6e390d72d286abdf.mp4",
-    "https://telegra.ph/file/4dff1809726b1080712a1.mp4",
+    "https://envs.sh/5CC.mp4",
+    "https://envs.sh/5CY.mp4",
 ]
 
 NOWYES = [
