@@ -554,8 +554,8 @@ INSULT_STRINGS = [
 
 
 BAN_GIFS = [
-    "https://telegra.ph//file/85ac1ab12c833afa1a5dd.mp4",
-    "https://telegra.ph/file/0185e3098faed80909d7f.mp4",
+    "https://envs.sh/Lwu.mp4",
+    "https://envs.sh/5Y9.mp4",
     "https://telegra.ph/file/5612ba8d79f805afc5445.mp4",
 ]
 
