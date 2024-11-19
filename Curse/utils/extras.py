@@ -596,9 +596,9 @@ NO       NO   NONONO            NONO
 ]
 
 StartPic = [
-    "https://telegra.ph/file/39c982b5f5ec840600b6c.jpg",
-    "https://telegra.ph/file/656c327572f1ef1d9f461.jpg",
-    "https://telegra.ph/file/cbe228e94bb55d2873f07.jpg",
+    "https://te.legra.ph/file/f3cee7aa0cfefe0852487-df1c81c59335f204d3.jpg",
+    "https://telegra.ph/file/d25f7b8c191547c287bba-245b5a8be70fa9bef3.jpg",
+    "https://telegra.ph/file/45885dc76d39b37881acf-74099d200cb2b1beea.jpg",
     "https://telegra.ph/file/faef496ba7135687ad540.jpg",
     "https://telegra.ph/file/005c489b9915871d2cbe7.jpg",
     "https://telegra.ph/file/30c8c02615bb0d32fabaa.jpg",
