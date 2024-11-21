@@ -35,12 +35,12 @@ Yᴏᴜʀ ᴅᴏɴᴀᴛɪᴏɴ ᴍɪɢʜᴛ ᴀʟsᴏ ᴍᴇ ɢᴇᴛ ᴍᴇ �
 
 Aʟʟ ᴛʜᴇ ғᴜɴᴅ ᴡᴏᴜʟᴅ ʙᴇ ᴘᴜᴛ ɪɴᴛᴏ ᴍʏ sᴇʀᴠɪᴄᴇs sᴜᴄʜ ᴀs ᴅᴀᴛᴀʙᴀsᴇ, sᴛᴏʀᴀɢᴇ ᴀɴᴅ ʜᴏsᴛɪɴɢ!
 
-Yᴏᴜ ᴄᴀɴ ᴅᴏɴᴀᴛᴇ ʙʏ ᴄᴏɴᴛᴀᴄᴛɪɴɢ ᴍʏ ᴏᴡɴᴇʀ: [ 𝑲𝒂𝒓𝒂𝒏 ](https://t.me/HUNTER_KARAN)
+Yᴏᴜ ᴄᴀɴ ᴅᴏɴᴀᴛᴇ ʙʏ ᴄᴏɴᴛᴀᴄᴛɪɴɢ ᴍʏ ᴏᴡɴᴇʀ: [𝘿𝙖𝙢𝙞𝙖𝙣❤‍🩹🌙](https://t.me/its_damiann)
      """,
   reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("𝗗𝗢𝗡𝗔𝗧𝗘 𝗡𝗢𝗪", url="https://t.me/HUNTER_KARAN"),
+                    InlineKeyboardButton("𝗗𝗢𝗡𝗔𝗧𝗘 𝗡𝗢𝗪", url="https://t.me/Its_damiann"),
                 ],
                 [InlineKeyboardButton("𝗕𝗔𝗖𝗞", callback_data="start_back")],
             ],
@@ -117,14 +117,10 @@ async def start(c: app, m: Message):
                 
         try:
             cpt = f"""
-────「  ᴋᴏᴍɪ  」────
-❂ ʜᴇʟʟᴏ [{m.from_user.first_name}](http://t.me/{m.from_user.username})...,
-×⋆✦⋆──────────────⋆✦⋆×
-ɪ ᴀᴍ ᴋᴏᴍɪ ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ 
-ᴀɴᴅ ᴍᴜsɪᴄ ʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ
-ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
-×⋆✦⋆──────────────⋆✦⋆×
-ᴄʟɪᴄᴋ ᴏɴ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ!"""
+ Hello, [{m.from_user.first_name}](http://t.me/{m.from_user.username})...,
+
+I am a group management and music bot which can help you to manage and secure your group.
+Click on commands to learn more !"""
 
             await m.reply_photo(
                 photo=str(choice(StartPic)),
@@ -159,14 +155,10 @@ async def start(c: app, m: Message):
 async def start_back(_, q: CallbackQuery):
     try:
         cpt = f"""
-────「  ᴋᴏᴍɪ  」────
-❂ ʜᴇʟʟo [{q.from_user.first_name}](http://t.me/{q.from_user.username})...,
-×⋆✦⋆──────────────⋆✦⋆×
-ɪ ᴀᴍ ᴋᴏᴍɪ ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ 
-ᴀɴᴅ ᴍᴜsɪᴄ ʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ
-ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
-×⋆✦⋆──────────────⋆✦⋆×
-ᴄʟɪᴄᴋ ᴏɴ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ!"""
+Hello, [{m.from_user.first_name}](http://t.me/{m.from_user.username})...,
+
+I am a group management and music bot which can help you to manage and secure your group.
+Click on commands to learn more !"""
 
         await q.edit_message_caption(
             caption=cpt,
@@ -184,13 +176,13 @@ async def commands_menu(_, q: CallbackQuery):
     # keyboard = ikb(ou, True)
     # try:
         cpt = f"""
-ʜᴇʟʟᴏ **[{q.from_user.first_name}](http://t.me/{q.from_user.username})**! I am ᴋᴏᴍɪ✨.
-I'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ(s)!
-Cᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ:
+Hello, **[{q.from_user.first_name}](http://t.me/{q.from_user.username})**! .
+I'm here to help you manage your groups
+Commands available:
 × /start: Sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
 × /help: Gɪᴠᴇ's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ.
 
-Yᴏᴜ ᴄᴀɴ ᴜsᴇ`$` ᴀɴᴅ `!` ɪɴ ᴘʟᴀᴄᴇᴄ ᴏғ / ᴀs ʏᴏᴜʀ ᴘʀᴇғɪx ʜᴀɴᴅʟᴇʀ
+You can use `$` and `!` in place of / as your prefix handler.
 """
 
         await q.edit_message_caption(
@@ -257,11 +249,14 @@ async def help_menu(_, m: Message):
 
         if m.chat.type == ChatType.PRIVATE:
             msg = f"""
-Aʜᴏʏ **[{m.from_user.first_name}](http://t.me/{m.from_user.username})**!I am Kᴏᴍɪ✨.
-I'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ(s)!
-Cᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ:
+Hello, **[{q.from_user.first_name}](http://t.me/{q.from_user.username})**! .
+I'm here to help you manage your groups
+Commands available:
 × /start: Sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
-× /help: Gɪᴠᴇ's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ."""
+× /help: Gɪᴠᴇ's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ.
+
+You can use `$` and `!` in place of / as your prefix handler.
+"""
         else:
             keyboard = InlineKeyboardMarkup(
               [
@@ -293,11 +288,11 @@ async def give_curr_info(c: app, q: CallbackQuery):
     delta_ping = time() - start
     await x.delete()
     txt = f"""
-🏓 Pɪɴɢ: {delta_ping * 1000:.3f} ms
-📈 Uᴘᴛɪᴍᴇ : {up}
-🤖 Bᴏᴛ's ᴠᴇʀsɪᴏɴ: {VERSION}
-🐍 Pʏᴛʜᴏɴ's ᴠᴇʀsɪᴏɴ : {PYTHON_VERSION}
-🔥 Pʏʀᴏɢʀᴀᴍ's ᴠᴇʀsɪᴏɴ : {PYROGRAM_VERSION}
+   Pɪɴɢ: {delta_ping * 1000:.3f} ms
+   Uᴘᴛɪᴍᴇ : {up}
+   Bᴏᴛ's ᴠᴇʀsɪᴏɴ: {VERSION}
+   Pʏᴛʜᴏɴ's ᴠᴇʀsɪᴏɴ : {PYTHON_VERSION}
+   Pʏʀᴏɢʀᴀᴍ's ᴠᴇʀsɪᴏɴ : {PYROGRAM_VERSION}
     """
     await q.answer(txt, show_alert=True)
     return
@@ -324,9 +319,7 @@ async def get_module_info(c: app, q: CallbackQuery):
 async def handle_details_callback(_, query: CallbackQuery):
     await query.answer()
     await query.message.edit_text(
-     """ʜᴇʟʟᴏ ᴛʜɪs ɪs Kᴏᴍɪ.
-     
-     Cʟɪᴄᴋ ᴏɴ Dᴏɴᴀᴛᴇ 💸 ᴛᴏ Sᴜᴘᴘᴏʀᴛ Mʏ Tᴇᴀᴍ.
+     """Cʟɪᴄᴋ ᴏɴ Dᴏɴᴀᴛᴇ 💸 ᴛᴏ Sᴜᴘᴘᴏʀᴛ Mʏ Tᴇᴀᴍ.
      I'ᴍ Hᴇʀᴇ ᴛᴏ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘs ɪɴ ᴀ Hᴏʀɴʏ ᴀɴᴅ Eᴀsʏ Wᴀʏ
      Aɴʏ Issᴜᴇs ᴏʀ Nᴇᴇᴅ Hᴇʟᴘ Rᴇʟᴀᴛᴇᴅ ᴛᴏ Mᴇ Vɪsɪᴛ Sᴜᴘᴘᴏʀᴛ Cʜᴀᴛ.""",
         reply_markup=InlineKeyboardMarkup(
@@ -347,7 +340,7 @@ async def handle_details_callback(_, query: CallbackQuery):
 async def handle_how_to_use_callback(_, query: CallbackQuery):
     await query.answer()
     await query.message.edit_text(
-     """Nᴇᴡ ᴛᴏ Kᴏᴍɪ! Hᴇʀᴇ ɪs ᴛʜᴇ Qᴜɪᴄᴋ Sᴛᴀʀᴛ Gᴜɪᴅᴇ
+     """Nᴇᴡ!Hᴇʀᴇ ɪs ᴛʜᴇ Qᴜɪᴄᴋ Sᴛᴀʀᴛ Gᴜɪᴅᴇ
      Wʜɪᴄʜ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ ᴛᴏ Uɴᴅᴇʀsᴛᴀɴᴅ Wʜᴀᴛ ɪs Kᴏᴍɪ 
      ᴀɴᴅ Hᴏᴡ ᴛᴏ Usᴇ Iᴛ.
      Cʟɪᴄᴋ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴ ᴛᴏ Aᴅᴅ Bᴏᴛ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘ.
@@ -366,7 +359,7 @@ async def handle_how_to_use_callback(_, query: CallbackQuery):
 @app.on_callback_query(filters.regex(r"help_(.*?)"))
 async def help_button(_,query):  
     HELP_STRINGS = f"""
-🫧 Kᴏᴍɪ 🫧
+🫧 ʜᴀʀʀʏメᴘᴏᴛᴛᴇʀ 🫧
 
 ☉ Hᴇʀᴇ, ʏᴏᴜ ᴡɪʟʟ ғɪɴᴅ ᴀ ʟɪsᴛ ᴏғ ᴀʟʟ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.
 
