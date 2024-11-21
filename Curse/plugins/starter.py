@@ -22,7 +22,7 @@ from Curse.utils.start_utils import (gen_cmds_kb, gen_start_kb, get_help_msg,
 from Curse.vars import Config
 from Curse.utils.paginate import paginate_modules
 
-C_HANDLER = ["/", "komi ", "Komi ", "."]
+C_HANDLER = ["/", "harry ", "harry ", "."]
 
 @app.on_callback_query(filters.regex("^donate$"))
 async def handle_donate_callback(_, query: CallbackQuery):
