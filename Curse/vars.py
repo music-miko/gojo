@@ -66,21 +66,21 @@ class Development:
     API_HASH = "fa6e0313afd8259094486d3256242102"  # Your APP_HASH from Telegram
     OWNER_ID = 6848223695  # Your telegram user id default to mine
     MESSAGE_DUMP = -1002023182491  # Your Private Group ID for logs
-    DEV_USERS = ["7186437295"]
-    SUDO_USERS = ["6893043153"]
+    DEV_USERS = ["7186437295 6965147961"]
+    SUDO_USERS = ["6864672519 6606591031 6557496294"]
     WHITELIST_USERS = ["7185106962"]
-    DB_URI = "mongodb+srv://botmaker9675208:botmaker9675208@cluster0.sc9mq8b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # Your mongo DB URI
-    DB_NAME = "Curse"  # Your DB name
+    DB_URI = "mongodb+srv://sakibsk304:HKswQwkHU5mGlAUv@cluster0.w8xnr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # Your mongo DB URI
+    DB_NAME = "Cluster0"  # Your DB name
     NO_LOAD = []
     GENIUS_API_TOKEN = "gIgMyTXuwJoY9VCPNwKdb_RUOA_9mCMmRlbrrdODmNvcpslww_2RIbbWOB8YdBW9"
     RMBG_API = ""
     PREFIX_HANDLER = ["!", ".", "gojo ", "gojo "]
-    SUPPORT_GROUP = "nothing_bots_support"
+    SUPPORT_GROUP = "HunterXsupport"
     SUPPORT_CHANNEL = "The_Hogwart"
     VERSION = "3.O"
     TIME_ZONE = 'Asia/Kolkata'
     BDB_URI = "mongodb+srv://orewauzumaki:orewauzumaki@cluster0.bmhengh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     WORKERS = 8
-    BOT_USERNAME = "gojo_x_management_bot"
-    BOT_ID = "7916855567"
+    BOT_USERNAME = "Harry_RoxBot"
+    BOT_ID = "7858576961"
     AuDD_API = ""
