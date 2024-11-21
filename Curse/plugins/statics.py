@@ -18,7 +18,7 @@ from Curse.utils.custom_filters import command
 from Curse.supports import get_support_staff
 
 SUPPORT_STAFF = get_support_staff()
-C_HANDLER = ["/", "komi ", "Komi ", "."]
+C_HANDLER = ["/", "harry ", "harry ", "."]
 
 @app.on_message(filters.command(["stats"], C_HANDLER), group=9696)
 async def get_stats(_, m: Message):
