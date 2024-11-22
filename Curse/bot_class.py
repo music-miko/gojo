@@ -47,7 +47,7 @@ class app(Client):
         await self.set_bot_commands(
             [
                 BotCommand("start", "Sᴛᴀʀᴛ's Tʜᴇ Bᴏᴛ"),
-                BotCommand("alive", "Tᴏ Cʜᴇᴄᴋ Mᴇ Aʟɪᴠᴇ ᴏʀ Nᴏᴛ"),
+                BotCommand("play", "play music"),
                 BotCommand("help", "Cᴏᴍᴍᴀɴᴅ Lɪsᴛ"),
                 BotCommand("afk","Aᴡᴀʏ Fʀᴏᴍ Cʜᴀᴛ")
             ]
