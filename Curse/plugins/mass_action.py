@@ -19,7 +19,7 @@ from Curse.extras.human_read import get_readable_time
 from Curse.supports import get_support_staff
 
 SUPPORT_STAFF = get_support_staff()
-C_HANDLER = ["/", "komi ", "Komi ", "."]
+C_HANDLER = ["/", "harry ", "harry ", "."]
 
 @app.on_message(filters.command(["unbanall","muteall","unmuteall"], C_HANDLER) & ~filters.private)
 @bot_admin
