@@ -11,7 +11,7 @@ from Curse.utils.extract_user import extract_user
 from Curse.utils.kbhelpers import ikb
 from Curse.utils.parser import mention_html
 
-C_HANDLER = ["/", "komi ", "Komi ", "."]
+C_HANDLER = ["/", "harry ", "harry ", "."]
 
 @app.on_message(filters.command(["approve"], C_HANDLER) & admin_filter)
 async def approve_user(c: app, m: Message):
