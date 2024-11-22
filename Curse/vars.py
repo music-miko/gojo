@@ -74,7 +74,7 @@ class Development:
     NO_LOAD = []
     GENIUS_API_TOKEN = "gIgMyTXuwJoY9VCPNwKdb_RUOA_9mCMmRlbrrdODmNvcpslww_2RIbbWOB8YdBW9"
     RMBG_API = ""
-    PREFIX_HANDLER = ["!", ".", "gojo ", "gojo "]
+    PREFIX_HANDLER = ["!", ".", "harry ", "harry ", "/"]
     SUPPORT_GROUP = "HunterXsupport"
     SUPPORT_CHANNEL = "The_Hogwart"
     VERSION = "3.O"
