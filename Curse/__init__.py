@@ -62,7 +62,7 @@ VERSION = sorted(version_files)[-1][8:-3] if version_files else "unknown"
 PYTHON_VERSION = python_version()
 PYROGRAM_VERSION = pyrogram.__version__
 LOGGER.info("------------------------")
-LOGGER.info("|      Sukuna      |")
+LOGGER.info("|      Tosu     |")
 LOGGER.info("------------------------")
 LOGGER.info(f"Version: {VERSION}")
 LOGGER.info(f"Owner: {str(Config.OWNER_ID)}")
