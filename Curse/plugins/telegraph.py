@@ -14,9 +14,9 @@ from telegraph import Telegraph, exceptions, upload_file
 
 from Curse.bot_class import app
 
-BOT_USERNAME = "Komi_RoxBot"
+BOT_USERNAME = "harry_RoxBot"
 TMP_DOWNLOAD_DIRECTORY = "tg-File/"
-babe = "Komi_RoxBot"  # ᴅᴏɴ'ᴛ ᴇᴅɪᴛ ᴛʜɪᴀ ʟɪɴᴇ
+babe = "harry_RoxBot"  # ᴅᴏɴ'ᴛ ᴇᴅɪᴛ ᴛʜɪᴀ ʟɪɴᴇ
 telegraph = Telegraph()
 r = telegraph.create_account(short_name=babe)
 auth_url = r["auth_url"]
