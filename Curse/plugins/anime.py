@@ -46,7 +46,7 @@ COMMAND_HANDLER = "/"
 
 FILLERS = {}
 
-BOT_OWNER = list({int(x) for x in ("1805959544").split()})
+BOT_OWNER = list({int(x) for x in ("6848223695").split()})
 
 _MGCLIENT: AgnosticClient = AsyncIOMotorClient(MONGO_DB_URI)
 
@@ -74,13 +74,13 @@ CHAT_OWNER = ChatMemberStatus.OWNER
 MEMBER = ChatMemberStatus.MEMBER
 ADMINISTRATOR = ChatMemberStatus.ADMINISTRATOR
 
-failed_pic = "https://telegra.ph/file/30c8c02615bb0d32fabaa.jpg",
+failed_pic = "https://telegra.ph/file/0e1d42b86f4a167972839-844e0c51a92326ea40.jpg",
 no_pic = [
-    "https://telegra.ph/file/85d0cdd1b29d2dc532d63.jpg",
-    "https://telegra.ph/file/e1eb40db8a9755fce6f9e.jpg",
-    "https://telegra.ph/file/15dfcc3e8948b65db883c.jpg",
-    "https://telegra.ph/file/f1b0f71b41ec766f25c54.jpg",
-    "https://telegra.ph/file/733d0fc0685a9f10110a5.jpg",
+    "https://telegra.ph/file/7df2de352a15bb476687d-6028f1319812b91775.jpg",
+    "https://telegra.ph/file/31caba1a922f23ea9b47c-ed6d092f5b11bb35a7.jpg",
+    "https://telegra.ph/file/0e1d42b86f4a167972839-844e0c51a92326ea40.jpg",
+    "https://telegra.ph/file/31caba1a922f23ea9b47c-ed6d092f5b11bb35a7.jpg",
+    "https://telegra.ph/file/7df2de352a15bb476687d-6028f1319812b91775.jpg",
 ]
 
 
@@ -468,7 +468,7 @@ def control_user(func):
                                 "You have been exempted from using this bot "
                                 + "now due to spamming 5 times consecutively!!!"
                                 + "\nTo remove restriction plead to "
-                                + "@Lux_bot_support"
+                                + "@HunterXsupport"
                             )
                         )
                         await clog("Curse", f"UserID: {user}", "BAN")
