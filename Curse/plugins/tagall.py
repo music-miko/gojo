@@ -3,7 +3,7 @@ from Curse import pbot as app
 from pyrogram import filters
 from Curse.extras.status import user_admin
 
-C_HANDLER = ["/", "komi ", "Komi ", "."]
+C_HANDLER = ["/", "harry ", "harry ", "."]
 SPAM_CHATS = []
 
 @app.on_message(filters.command(["tagall", "all"], C_HANDLER) | filters.command("@all", "") & filters.group, group=-98765)
