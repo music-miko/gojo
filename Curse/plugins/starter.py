@@ -40,9 +40,9 @@ Yᴏᴜ ᴄᴀɴ ᴅᴏɴᴀᴛᴇ ʙʏ ᴄᴏɴᴛᴀᴄᴛɪɴɢ ᴍʏ ᴏᴡ�
   reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("𝗗𝗢𝗡𝗔𝗧𝗘 𝗡𝗢𝗪", url="https://t.me/Its_damiann"),
+                    InlineKeyboardButton("Donate", url="https://t.me/Its_damiann"),
                 ],
-                [InlineKeyboardButton("𝗕𝗔𝗖𝗞", callback_data="start_back")],
+                [InlineKeyboardButton("Back", callback_data="start_back")],
             ],
         ),
     ),
@@ -144,10 +144,7 @@ Click on commands to learn more !"""
         
       await m.reply_photo(
         photo=str(choice(StartPic)),
-        caption="◎𝙷ᴇʏ ʙᴜᴅᴅʏ ᴛʜɪꜱ ɪꜱ ᴛʜᴇ sᴄʜᴏᴏʟ ᴏғ ᴍᴀɢɪᴄɪᴀɴs ʜᴏɢᴡᴀʀᴛs !
-⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ 
-🫧 ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ. 
-​˹ᴡᴏʀᴋɪɴɢ ᴘʀᴏᴘᴇʟʏ ꜱɪɴᴄᴇ˼ : 7days, 7h:24m:48s",
+        caption="Hi",
         reply_markup=kb,
         quote=True,
       )
