@@ -66,7 +66,7 @@ async def _id(client, message):
         text += f"๏ ID ᴏғ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴄʜᴀᴛ/ᴄʜᴀɴɴᴇʟ, ɪs `{reply.sender_chat.id}`"
         
     await message.reply_photo(
-       photo = "https://telegra.ph//file/90416fb37473fa7ec141e.jpg",
+       photo = "https://telegra.ph/file/0e1d42b86f4a167972839-844e0c51a92326ea40.jpg",
        caption=text)
 
 
