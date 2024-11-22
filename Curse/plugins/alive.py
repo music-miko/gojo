@@ -10,21 +10,21 @@ from Curse.bot_class import app
 from Curse import PREFIX_HANDLER as COMMAND_HANDLER
 
 StartPic = [
-    "https://te.legra.ph/file/39c982b5f5ec840600b6c.jpg",
-    "https://te.legra.ph/file/656c327572f1ef1d9f461.jpg",
-    "https://te.legra.ph/file/cbe228e94bb55d2873f07.jpg",
-    "https://te.legra.ph/file/faef496ba7135687ad540.jpg",
+    "https://telegra.ph/file/0e1d42b86f4a167972839-844e0c51a92326ea40.jpg",
+    "https://telegra.ph/file/7df2de352a15bb476687d-6028f1319812b91775.jpg",
+    "https://telegra.ph/file/31caba1a922f23ea9b47c-ed6d092f5b11bb35a7.jpg",
+    "https://telegra.ph/file/12a70be5ce2ef0390c283-6471cefed0a23c07af.jpg",
 ]
 
 Suku = [
     [
-        InlineKeyboardButton(text=" Sᴜᴘᴘᴏʀᴛ ", url="https://t.me/Lux_bot_support"),
-        InlineKeyboardButton(text=" Uᴘᴅᴀᴛᴇs ", url=f"https://t.me/sukunaXupdate"),
+        InlineKeyboardButton(text=" Sᴜᴘᴘᴏʀᴛ ", url="https://t.me/hunterxsupport"),
+        InlineKeyboardButton(text=" Uᴘᴅᴀᴛᴇs ", url=f"https://t.me/the_hogwart"),
     ],
     [
         InlineKeyboardButton(
             text=" Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ 💫 ",
-            url="https://t.me/Komi_RoxBot?startgroup=new",
+            url="https://t.me/Harry_RoxBot?startgroup=new",
         ),
     ],
 ]
@@ -36,7 +36,7 @@ async def restart(client, m: Message):
     await m.reply_photo(
         random.choice(StartPic),
         caption=f"""━━━━━━ 🝮✿🝮 ━━━━━━
-♛ Dᴇᴠᴏᴛᴇᴅ Tᴏ : [𝑲𝒂𝒓𝒂𝒏](https://t.me/HUNTER_KARAN)
+♛ Dᴇᴠᴏᴛᴇᴅ Tᴏ : [𝘿𝙖𝙢𝙞𝙖𝙣❤‍🩹🌙](https://t.me/its_damiann)
 » Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ : {pver}
 » Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ : {version_info[0]}.{version_info[1]}.{version_info[2]}
 » Bᴏᴛ Vᴇʀꜱɪᴏɴ : 3.0
