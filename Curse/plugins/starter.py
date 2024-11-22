@@ -144,7 +144,10 @@ Click on commands to learn more !"""
         
       await m.reply_photo(
         photo=str(choice(StartPic)),
-        caption="I'm alive :3",
+        caption="◎𝙷ᴇʏ ʙᴜᴅᴅʏ ᴛʜɪꜱ ɪꜱ ᴛʜᴇ sᴄʜᴏᴏʟ ᴏғ ᴍᴀɢɪᴄɪᴀɴs ʜᴏɢᴡᴀʀᴛs !
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ 
+🫧 ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ. 
+​˹ᴡᴏʀᴋɪɴɢ ᴘʀᴏᴘᴇʟʏ ꜱɪɴᴄᴇ˼ : 7days, 7h:24m:48s",
         reply_markup=kb,
         quote=True,
       )
@@ -155,8 +158,6 @@ Click on commands to learn more !"""
 async def start_back(_, q: CallbackQuery):
     try:
         cpt = f"""
-Hello, [{m.from_user.first_name}](http://t.me/{m.from_user.username})...,
-
 I am a group management and music bot which can help you to manage and secure your group.
 Click on commands to learn more !"""
 
@@ -176,7 +177,7 @@ async def commands_menu(_, q: CallbackQuery):
     # keyboard = ikb(ou, True)
     # try:
         cpt = f"""
-Hello, **[{q.from_user.first_name}](http://t.me/{q.from_user.username})**! .
+Hello, .
 I'm here to help you manage your groups
 Commands available:
 × /start: Sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
@@ -249,7 +250,7 @@ async def help_menu(_, m: Message):
 
         if m.chat.type == ChatType.PRIVATE:
             msg = f"""
-Hello, **[{q.from_user.first_name}](http://t.me/{q.from_user.username})**! .
+Hello, .
 I'm here to help you manage your groups
 Commands available:
 × /start: Sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
@@ -325,13 +326,13 @@ async def handle_details_callback(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("𝗛𝗢𝗪 𝗧𝗢 𝗨𝗦𝗘 𝗠𝗘", callback_data="how_to_use"),
+                    InlineKeyboardButton("How to use me", callback_data="how_to_use"),
                 ],
                 [
-                    InlineKeyboardButton("🖥 𝗜𝗡𝗦𝗜𝗗𝗘𝗥", callback_data="bot_curr_info"),
-                    InlineKeyboardButton("🤑 𝗗𝗢𝗡𝗔𝗧𝗘", callback_data="donate"),
+                    InlineKeyboardButton("Ping", callback_data="bot_curr_info"),
+                    InlineKeyboardButton("Donate", callback_data="donate"),
                 ],
-                [InlineKeyboardButton("𝗕𝗔𝗖𝗞", callback_data="start_back")],
+                [InlineKeyboardButton("Back", callback_data="start_back")],
             ],
         ),
     )
@@ -340,18 +341,17 @@ async def handle_details_callback(_, query: CallbackQuery):
 async def handle_how_to_use_callback(_, query: CallbackQuery):
     await query.answer()
     await query.message.edit_text(
-     """Nᴇᴡ!Hᴇʀᴇ ɪs ᴛʜᴇ Qᴜɪᴄᴋ Sᴛᴀʀᴛ Gᴜɪᴅᴇ
-     Wʜɪᴄʜ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ ᴛᴏ Uɴᴅᴇʀsᴛᴀɴᴅ Wʜᴀᴛ ɪs Kᴏᴍɪ 
-     ᴀɴᴅ Hᴏᴡ ᴛᴏ Usᴇ Iᴛ.
-     Cʟɪᴄᴋ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴ ᴛᴏ Aᴅᴅ Bᴏᴛ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘ.
-     Bᴀsɪᴄ Tᴏᴜʀ Sᴛᴀʀᴛᴇᴅ ᴛᴏ Kɴᴏᴡ Aʙᴏᴜᴛ Hᴏᴡ ᴛᴏ Usᴇ ME
+     """Here is the quick start guide which will help you to understand what is ʜᴀʀʀʏメᴘᴏᴛᴛᴇʀ and how  to use it 
+
+Click below button to add bot in your group
+Basic tour started to know about how to use me.
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣", url="https://t.me/{Config.BOT_USERNAME}?startgroup=new"),
+                    InlineKeyboardButton("Add Me to Your Group", url="https://t.me/{Config.BOT_USERNAME}?startgroup=new"),
                 ],
-                [InlineKeyboardButton("𝗕𝗔𝗖𝗞", callback_data="start_back")],
+                [InlineKeyboardButton("Back", callback_data="start_back")],
             ],
         ),
     )
