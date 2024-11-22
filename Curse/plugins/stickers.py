@@ -48,7 +48,7 @@ def get_emoji_regex():
     pattern_ = f"({'|'.join(e_sort)})"
     return re.compile(pattern_)
 
-C_HANDLER = ["/", "komi ", "Komi ", "."]
+C_HANDLER = ["/", "harry ", "harry ", "."]
 EMOJI_PATTERN = get_emoji_regex()
 SUPPORTED_TYPES = ["jpeg", "png", "webp"]
 
