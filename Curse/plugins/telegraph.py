@@ -148,7 +148,7 @@ async def handwrite(_, message: Message):
 
     caption = f"""
 sᴜᴄᴇssғᴜʟʟʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ 💘
-✨ ᴡʀɪᴛᴛᴇɴ ʙʏ : [Kᴏᴍɪ](https://t.me/{BOT_USERNAME})
+✨ ᴡʀɪᴛᴛᴇɴ ʙʏ : [ʜᴀʀʀʏメᴘᴏᴛᴛᴇʀ](https://t.me/harry_RoxBot)
 🥀 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}
 """
     await m.delete()
@@ -156,7 +156,7 @@ sᴜᴄᴇssғᴜʟʟʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ 💘
 
 __PLUGIN__ = "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗣𝗛"
 __HELP__ = """
-** ✍️ About Telegraph **.
+** About Telegraph **.
 
 **Usage:**
 
