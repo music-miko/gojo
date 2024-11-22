@@ -29,7 +29,7 @@ def dt_tom():
 tomorrow = str(dt_tom())
 today = str(dt()[0])
 
-COUPLES_PIC = "https://te.legra.ph/file/e730a23bbd4f9d410fcb8.jpg"
+COUPLES_PIC = "https://telegra.ph/file/e458d20773173645b795a-c9c15cf9964bd72681.jpg"
 C = """
 💌 ᴄᴏᴜᴘʟᴇs ᴏғ ᴛʜᴇ ᴅᴀʏ : :\n
 {} + ( Shouko + 花火 + ゼロツー ) = 💘\n
