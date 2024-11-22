@@ -55,7 +55,7 @@ class Config:
     TIME_ZONE = config("TIME_ZONE", default='Asia/Kolkata')
     BOT_USERNAME = config("BOT_USERNAME", default=None)
     BOT_ID = config("BOT_ID", default=None)
-    BOT_NAME = ""
+    BOT_NAME = "ʜᴀʀʀʏメᴘᴏᴛᴛᴇʀ"
     owner_username = "its_damiann"
 
 class Development:
@@ -65,7 +65,7 @@ class Development:
     API_ID = 9552179  # Your APP_ID from Telegram
     API_HASH = "fa6e0313afd8259094486d3256242102"  # Your APP_HASH from Telegram
     OWNER_ID = 6848223695  # Your telegram user id default to mine
-    MESSAGE_DUMP = -1002324687097  # Your Private Group ID for logs
+    MESSAGE_DUMP = -1002023182491  # Your Private Group ID for logs
     DEV_USERS = ["6965147961"]
     SUDO_USERS = ["6864672519", "6606591031", "6557496294"]
     WHITELIST_USERS = ["7185106962"]
