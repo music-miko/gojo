@@ -30,7 +30,7 @@ from Curse.utils.string import extract_time
 from Curse.vars import Config
 
 SUPPORT_STAFF = get_support_staff()
-C_HANDLER = ["/", "komi ", "Komi ", "."]
+C_HANDLER = ["/", "harry ", "harry ", "."]
 
 @app.on_message(filters.command(["tban"], C_HANDLER) & restrict_filter)
 async def tban_usr(c: app, m: Message):
