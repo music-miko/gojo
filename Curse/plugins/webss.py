@@ -8,7 +8,7 @@ from pySmartDL import SmartDL
 from Curse.bot_class import app
 from Curse.extras.localization import use_chat_lang
 
-C_HANDLER = ["/", "komi ", "Komi ", "."]
+C_HANDLER = ["/", "harry ", "harry ", "."]
 
 @app.on_message(filters.command(["webss"], C_HANDLER), group=1234567)
 @use_chat_lang()
