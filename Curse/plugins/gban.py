@@ -20,20 +20,20 @@ from Curse.vars import Config
 # Initialize
 db = GBan()
 SUPPORT_STAFF = get_support_staff()
-C_HANDLER = ["/", "komi ", "Komi ", "."]
+C_HANDLER = ["/", "harry ", "harry ", "."]
 
-@app.on_message(filters.command(["gban", "globalban"], C_HANDLER))
+@app.on_message(filters.command(["pban", "globalban"], C_HANDLER))
 async def gban(c: app, m: Message):
     if m.from_user.id not in SUPPORT_STAFF:
         return
     if len(m.text.split()) == 1:
         await m.reply_text(
-            text="<b>How to gban?</b> \n <b>Answer:</b> <code>/gban user_id reason</code>"
+            text="<b>How to pban?</b> \n <b>Answer:</b> <code>/gban user_id reason</code>"
         )
         return
 
     if len(m.text.split()) == 2 and not m.reply_to_message:
-        await m.reply_text(text="Please enter a reason to gban user!")
+        await m.reply_text(text="Please enter a reason to pban user!")
         return
 
     user_id, user_first_name, _ = await extract_user(c, m)
@@ -61,7 +61,7 @@ async def gban(c: app, m: Message):
     db.add_gban(user_id, gban_reason, m.from_user.id)
     await m.reply_text(
         (
-            f"Added {user_first_name} to GBan List. \n They will now be banned in all groups where I'm admin!"
+            f"Added {user_first_name} to pban List. \n They will now be banned in all groups where I'm admin!"
         )
     )
     LOGGER.info(f"{m.from_user.id} gbanned {user_id} from {m.chat.id}")
@@ -72,7 +72,7 @@ async def gban(c: app, m: Message):
         # Send message to user telling that he's gbanned
         await c.send_message(
             user_id,
-            f"You have been added to my global ban list! \n <b>Reason:</b> <code>{gban_reason}</code> \n <b>Appeal Chat:</b> @{SUPPORT_GROUP}",
+            f"You have been added to my global ban list! \n <b>Reason:</b> <code>{gban_reason}</code> \n <b>Appeal Chat:</b> @hunterXsupport",
         )
     except UserIsBlocked:
         LOGGER.error("Could not send PM Message, user blocked bot")
@@ -111,7 +111,7 @@ async def ungban(c: app, m: Message):
         db.remove_gban(user_id)
         await m.reply_text(text=f"Removed {user_first_name} from Global Ban List.")
         time = ((datetime.utcnow().strftime("%H:%M - %d-%m-%Y")),)
-        LOGGER.info(f"{m.from_user.id} ungbanned {user_id} from {m.chat.id}")
+        LOGGER.info(f"{m.from_user.id} unpbanned {user_id} from {m.chat.id}")
         log_msg = f"""#UNGBAN
         <b>Originated from:</b> {m.chat.id}
         <b>Admin:</b> {(await mention_html(m.from_user.first_name, m.from_user.id))}
@@ -134,19 +134,19 @@ async def ungban(c: app, m: Message):
     return
 
 
-@app.on_message(filters.command(["numgbans", "countgbans", "gbancount", "gbanscount"], C_HANDLER))
+@app.on_message(filters.command(["numpbans", "countpbans", "gbancount", "gbanscount"], C_HANDLER))
 async def gban_count(_, m: Message):
     if m.from_user.id not in SUPPORT_STAFF:
         return
 async def gban_count(_, m: Message):
     await m.reply_text(
-        text=f"Number of people gbanned: <code>{(db.count_gbans())}</code>"
+        text=f"Number of people pbanned: <code>{(db.count_gbans())}</code>"
     )
     LOGGER.info(f"{m.from_user.id} counting gbans in {m.chat.id}")
     return
 
 
-@app.on_message(filters.command(["gbanlist", "globalbanlist"], C_HANDLER))
+@app.on_message(filters.command(["pbanlist", "globalbanlist"], C_HANDLER))
 async def gban_list(_, m: Message):
     if m.from_user.id not in SUPPORT_STAFF:
         return
