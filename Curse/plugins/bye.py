@@ -18,7 +18,7 @@ async def _left_mem(client, message):
 
     video_url = "https://envs.sh/Lwt.mp4"
 
-    text = f"Gᴏᴏᴅ Bʏᴇ {user_link} Nᴏ Oɴᴇ Wɪʟʟ Mɪss Yᴏᴜ 💕"
+    text = f"Good bye {user_link}"
     
     await client.send_video(
         chat_id=message.chat.id,
