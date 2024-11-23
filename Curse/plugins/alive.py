@@ -18,7 +18,7 @@ StartPic = [
 
 Suku = [
     [
-        InlineKeyboardButton(text=" Sᴜᴘᴘᴏʀᴛ ", url="https://t.me/hunterxsupport"),
+        InlineKeyboardButton(text=" Sᴜᴘᴘᴏʀᴛ ", url="http://t.me/Harry_PotterxSupport"),
         InlineKeyboardButton(text=" Uᴘᴅᴀᴛᴇs ", url=f"https://t.me/the_hogwart"),
     ],
     [
@@ -45,6 +45,8 @@ up = strftime("%Hh %Mm %Ss", gmtime(time() - UPTIME))
 
 🧚‍♂️ Bot version: Harry Potter 2.8
 🐍 Python-Telegram-Bot:21.6
-⚡ Uptime: {up}""",
+⚡ Uptime: {up}
+
+𝗩𝗶𝘀𝗶𝘁 [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](http://t.me/Harry_PotterxSupport)""",
         reply_markup=InlineKeyboardMarkup(Suku),
     )
