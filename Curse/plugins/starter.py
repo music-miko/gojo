@@ -29,18 +29,14 @@ async def handle_donate_callback(_, query: CallbackQuery):
     await query.answer()
     await query.message.edit_text(
       """
-Hᴇʏ Tʜᴀɴᴋs ғᴏʀ ʏᴏᴜʀ ᴛʜᴏᴜɢʜᴛ ᴏғ ᴅᴏɴᴀᴛɪɴɢ ᴍᴇ!
-Wʜᴇɴ ʏᴏᴜ ᴅᴏɴᴀᴛᴇ, ᴀʟʟ ᴛʜᴇ ғᴜɴᴅ ɢᴏᴇs ᴛᴏᴡᴀʀᴅs ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡʜɪᴄʜ ᴍᴀᴋᴇs ᴏɴ ғᴀsᴛ ᴀɴᴅ ʀᴇsᴘᴏɴsɪᴠᴇ.
-Yᴏᴜʀ ᴅᴏɴᴀᴛɪᴏɴ ᴍɪɢʜᴛ ᴀʟsᴏ ᴍᴇ ɢᴇᴛ ᴍᴇ ᴀ ɴᴇᴡ ғᴇᴀᴛᴜʀᴇ ᴏʀ ᴛᴡᴏ, ᴡʜɪᴄʜ I ᴡᴀsɴ'ᴛ ᴀʙʟᴇ ᴛᴏ ɢᴇᴛ ᴅᴜᴇ ᴛᴏ sᴇʀᴠᴇʀ ʟɪᴍɪᴛᴀᴛɪᴏɴs.
+Hey Dude, 
+        Happy to hear that you wanna donate 
 
-Aʟʟ ᴛʜᴇ ғᴜɴᴅ ᴡᴏᴜʟᴅ ʙᴇ ᴘᴜᴛ ɪɴᴛᴏ ᴍʏ sᴇʀᴠɪᴄᴇs sᴜᴄʜ ᴀs ᴅᴀᴛᴀʙᴀsᴇ, sᴛᴏʀᴀɢᴇ ᴀɴᴅ ʜᴏsᴛɪɴɢ!
-
-Yᴏᴜ ᴄᴀɴ ᴅᴏɴᴀᴛᴇ ʙʏ ᴄᴏɴᴛᴀᴄᴛɪɴɢ ᴍʏ ᴏᴡɴᴇʀ: [𝘿𝙖𝙢𝙞𝙖𝙣❤‍🩹🌙](https://t.me/its_damiann)
-     """,
+you can directly contact my Developer for donating or you can visit my [support chat](t.me/Harry_PotterxSupport) and ask there about donation. """,
   reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Donate", url="https://t.me/Its_damiann"),
+                    InlineKeyboardButton("Support", url="http://t.me/Harry_PotterxSupport"),
                 ],
                 [InlineKeyboardButton("Back", callback_data="start_back")],
             ],
@@ -315,7 +311,7 @@ async def handle_details_callback(_, query: CallbackQuery):
     await query.message.edit_text(
      """Click On Donate 💸 to support my team. 
 I'm here to manage your groups in a horny and easy way
-any issues or need help related to me visit support. """,
+any issues or need help related to me visit [support](http://t.me/Harry_PotterxSupport). """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -340,7 +336,7 @@ I'm here to make your group management fun and easy! I have lots of handy featur
 
  Join [Updates Channel](t.me/the_hogwart) To Keep Yourself Updated About me.
 
-Any issues or need help related to me? Come visit us in [Support Chat](t.me/hunterxsupprt) 
+Any issues or need help related to me? Come visit us in [Support Chat](http://t.me/Harry_PotterxSupport) 
 
 You Can Know More About Me By Clicking The Below Buttons.
         """,
@@ -385,7 +381,7 @@ async def help_button(_,query):
             await query.message.edit_caption(
                 text,               
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="𝗕𝗔𝗖𝗞", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
                 ),
             )
 
