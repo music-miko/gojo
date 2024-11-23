@@ -9,6 +9,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Curse import UPTIME
 from Curse.bot_class import app
 from Curse import PREFIX_HANDLER as COMMAND_HANDLER
+from time import time
+
+UPTIME = time()
+up = strftime("%Hh %Mm %Ss", gmtime(time() - UPTIME))
 
 StartPic = [
     "https://telegra.ph/file/0e1d42b86f4a167972839-844e0c51a92326ea40.jpg",
@@ -32,11 +36,6 @@ Suku = [
 
 
 @app.on_message(filters.command(["alive", "zinda ho"], COMMAND_HANDLER), group=4678)
-
-from time import time
-
-UPTIME = time()
-up = strftime("%Hh %Mm %Ss", gmtime(time() - UPTIME))
 async def restart(client, m: Message):
     await m.delete()
     await m.reply_photo(
