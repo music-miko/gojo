@@ -282,8 +282,7 @@ async def give_curr_info(c: app, q: CallbackQuery):
     x = await c.send_message(q.message.chat.id, "Pinging..")
     delta_ping = time() - start
     await x.delete()
-    txt = f"""
-   Pɪɴɢ: {delta_ping * 1000:.3f} ms
+    txt = f"""Pɪɴɢ: {delta_ping * 1000:.3f} ms
    Uᴘᴛɪᴍᴇ : {up}
    Bᴏᴛ's ᴠᴇʀsɪᴏɴ: {VERSION}
    Pʏᴛʜᴏɴ's ᴠᴇʀsɪᴏɴ : {PYTHON_VERSION}
