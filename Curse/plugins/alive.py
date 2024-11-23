@@ -28,7 +28,7 @@ Suku = [
     ],
     [
         InlineKeyboardButton(
-            text=" Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ 💫 ",
+            text=" Add me to your group "
             url="https://t.me/Harry_RoxBot?startgroup=new",
         ),
     ],
