@@ -334,10 +334,15 @@ any issues or need help related to me visit support. """,
 async def handle_how_to_use_callback(_, query: CallbackQuery):
     await query.answer()
     await query.message.edit_text(
-     """Here is the quick start guide which will help you to understand what is ʜᴀʀʀʏメᴘᴏᴛᴛᴇʀ and how  to use it 
+     """Hey there! my name is Harry Potter Click on Help button to know my commands 
 
-Click below button to add bot in your group
-Basic tour started to know about how to use me.
+I'm here to make your group management fun and easy! I have lots of handy features, such as flood control, a warning system, a note keeping system, and even replies on predetermined filters.
+
+ Join [Updates Channel](t.me/the_hogwart) To Keep Yourself Updated About me.
+
+Any issues or need help related to me? Come visit us in [Support Chat](t.me/hunterxsupprt) 
+
+You Can Know More About Me By Clicking The Below Buttons.
         """,
         reply_markup=InlineKeyboardMarkup(
             [
