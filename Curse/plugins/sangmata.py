@@ -31,7 +31,7 @@ async def cek_mataa(self: Client, ctx: Message, strings):
         or first_name != ctx.from_user.first_name
         or lastname_before != ctx.from_user.last_name
     ):
-        msg += f"<b>➼ 𝐊𝐎𝐌𝐈 𝐌𝐄𝐓𝐀</b>\n\n🧑‍💼 User: {ctx.from_user.mention} [<code>{ctx.from_user.id}</code>]\n"
+        msg += f"<b>➼ 𝐇𝐀𝐑𝐑𝐘 𝐈𝐌𝐏𝐎𝐒𝐓𝐄𝐑</b>\n\n🧑‍💼 User: {ctx.from_user.mention} [<code>{ctx.from_user.id}</code>]\n"
     if usernamebefore != ctx.from_user.username:
         usernamebefore = f"@{usernamebefore}" if usernamebefore else strings("no_uname")
         usernameafter = (
@@ -100,7 +100,7 @@ async def set_mataa(self: Client, ctx: Message, strings):
     else:
         await ctx.reply(strings("wrong_param"))
 
-__PLUGIN__ = "𝗜𝗠𝗣𝗢𝗦𝗧𝗘𝗥"
+__PLUGIN__ = "Imposter"
 __HELP__ = """
-*• /imposter on:* Use this command to track name and username changes in the group. If a user changes their name and username, the bot will send a message showing any related changes.
+*• /imposter on/off :* Use this command to track name and username changes in the group. If a user changes their name and username, the bot will send a message showing any related changes.
 """
