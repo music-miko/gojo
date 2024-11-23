@@ -416,7 +416,7 @@ async def clearallnotes_callback(_, q: CallbackQuery):
     return
 
 
-__PLUGIN__ = "𝗡𝗢𝗧𝗘𝗦"
+__PLUGIN__ = "Notes"
 
 _DISABLE_CMDS_ = ["notes"]
 
