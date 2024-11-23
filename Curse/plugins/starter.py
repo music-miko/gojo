@@ -143,8 +143,9 @@ Click on commands to learn more !"""
       )
         
       await m.reply_photo(
+        up = strftime("%Hh %Mm %Ss", gmtime(time() - UPTIME))
         photo=str(choice(StartPic)),
-        caption="Hi",
+        caption="I'm alive since {up}",
         reply_markup=kb,
         quote=True,
       )
