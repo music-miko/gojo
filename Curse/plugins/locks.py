@@ -15,8 +15,8 @@ from Curse.vars import Config
 
 SUDO_LEVEL = set(SUDO_USERS + DEV_USERS + [int(OWNER_ID)])
 
-anti_c_send = [-1001576075071]
-anti_forward = [-1001576075071]
+anti_c_send = [-1002324687097]
+anti_forward = [-1002324687097]
 anti_forward_u = []
 anti_forward_c = []
 anti_links = []
@@ -548,7 +548,7 @@ async def prevent_approved(m: Message):
     return
 
 
-__PLUGIN__ = "𝗟𝗢𝗖𝗞𝗦"
+__PLUGIN__ = "Locks"
 
 __alt_name__ = ["grouplock", "lock", "grouplocks"]
 
