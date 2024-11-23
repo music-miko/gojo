@@ -23,7 +23,7 @@ async def broadcast_post(_, message):
 
     # Validate command arguments
     if not command_args:
-        return await message.reply_text("Usage: /bcast <group|users|all>")
+        return await message.reply_text("Usage: /pcast <group|users|all>")
     
     # Initialize failed counts
     failed_chats = 0
