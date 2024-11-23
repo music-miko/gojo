@@ -1,4 +1,4 @@
-__PLUGIN__ = "𝗡𝗜𝗚𝗛𝗧𝗠𝗢𝗗𝗘"
+__PLUGIN__ = "Night Mode"
 __HELP__ = """
 **Night mode** :
 
