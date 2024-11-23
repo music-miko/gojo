@@ -119,7 +119,7 @@ async def showWhisper(_, callback_query):
         await callback_query.answer("Not your Whisper!", show_alert=True)
 
 
-__PLUGIN__ = "𝗪𝗛𝗜𝗦𝗣𝗘𝗥"
+__PLUGIN__ = "Whisper"
 
 __HELP__ = """
 
