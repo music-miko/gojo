@@ -1013,7 +1013,7 @@ async def unbanbutton(c: app, q: CallbackQuery):
     return
 
 
-__PLUGIN__ = "𝗕𝗔𝗡"
+__PLUGIN__ = "Ban"
 
 __alt_name__ = [
     "ban",
