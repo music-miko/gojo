@@ -225,7 +225,7 @@ async def unapproveall_callback(_, q: CallbackQuery):
     return
 
 
-__PLUGIN__ = "𝗔𝗣𝗣𝗥𝗢𝗩𝗘"
+__PLUGIN__ = "Approve"
 
 __alt_name__ = ["approved"]
 
