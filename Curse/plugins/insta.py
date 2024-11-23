@@ -56,3 +56,11 @@ async def instadl_command_handler(_, message: Message):
 
     finally:
         await downloading_sticker.delete()
+
+
+__PLUGIN__ = "Insta"
+__HELP__ = """
+**Insta Downloader** :
+
+➥ /ig or /insta - for downloading reels through the links. 
+"""
