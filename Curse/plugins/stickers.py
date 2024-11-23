@@ -610,7 +610,7 @@ async def give_st_info(c: app, m: Message):
     return
 
 
-__PLUGIN__ = "𝗦𝗧𝗜𝗖𝗞𝗘𝗥"
+__PLUGIN__ = "Stickers"
 __alt_name__ = ["sticker", "kang"]
 
 __HELP__ = """
