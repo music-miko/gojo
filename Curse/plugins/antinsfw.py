@@ -171,7 +171,7 @@ async def nsfw_enable_disable(_, message):
         await message.reply_text("Unknown Suffix, Use /antinsfw [on/off]")
 
 
-__PLUGIN__ = "𝗔𝗡𝗧𝗜-𝗡𝗦𝗙𝗪"
+__PLUGIN__ = "Anti-NSFW"
 
 __HELP__ = """
 **🔞 Helps in detecting NSFW material and removing it**.
