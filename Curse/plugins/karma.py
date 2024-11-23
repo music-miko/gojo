@@ -153,7 +153,7 @@ async def karma_toggle_xd(_, message):
     else:
         await message.reply_text(usage)
 
-__PLUGIN__ = "𝗞𝗔𝗥𝗠𝗔"
+__PLUGIN__ = "Karma"
 __HELP__ = """
 Karma :
 
