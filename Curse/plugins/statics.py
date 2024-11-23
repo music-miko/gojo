@@ -71,8 +71,7 @@ async def get_stats(_, m: Message):
         f"<b>Disabling:</b> <code>{(dsbl.count_disabled_all())}</code> items in <code>{(dsbl.count_disabling_chats())}</code> chats.\n"
         "     <b>Action:</b>\n"
         f"        <b>-Del:</b> Applied in <code>{(dsbl.count_action_dis_all('del'))}</code> chats.\n\n"
-        "<a href='https://t.me/THE_HOGWART'>𝗛𝗢𝗚𝗪𝗔𝗥𝗧𝗦🪶</a> | "
-        "<a href='https://t.me/hunterXsupport'>𝗛𝗨𝗡𝗧𝗘𝗥 𝗦𝗨𝗣𝗣𝗢𝗥𝗧</a>\n\n"
+        "<a href='https://t.me/THE_HOGWART'>𝗛𝗢𝗚𝗪𝗔𝗥𝗧𝗦🪶</a>\n\n"
         f"「 𝗠𝗔𝗚𝗜𝗖𝗜𝗔𝗡 <a href='t.me/its_damiann'>𝗗𝗮𝗺𝗶𝗮𝗻❤‍🩹🌙</a> 」\n"
     )
     await replymsg.edit_text(
