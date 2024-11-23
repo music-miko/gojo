@@ -101,7 +101,7 @@ async def nibba_nibbi(_: Client, message):
         except Exception as e:
             print(e)
             await message.reply_text(e)
-__PLUGIN__ = "𝗖𝗢𝗨𝗣𝗟𝗘"
+__PLUGIN__ = "Couples"
 
 __HELP__ = """
 💘 Choose couples in your chat.
