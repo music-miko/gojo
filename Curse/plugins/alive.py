@@ -32,6 +32,9 @@ Suku = [
 
 
 @app.on_message(filters.command(["alive", "zinda ho"], COMMAND_HANDLER), group=4678)
+
+from time import time
+
 UPTIME = time()
 up = strftime("%Hh %Mm %Ss", gmtime(time() - UPTIME))
 async def restart(client, m: Message):
