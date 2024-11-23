@@ -147,7 +147,7 @@ async def back(_, query):
              return await query.message.edit(text=string, reply_markup=InlineKeyboardMarkup(buttons))
 
 
-__PLUGIN__ = "𝗘𝗫𝗧𝗥𝗔𝗦"
+__PLUGIN__ = "Extras"
 __HELP__ = """
 **🫧 𝗘𝗫𝗧𝗥𝗔𝗦**
 
