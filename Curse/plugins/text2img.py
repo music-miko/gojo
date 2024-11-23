@@ -136,7 +136,7 @@ async def darkv_handler(client, message):
 async def creative_handler(client, message):
     await generate_image_handler(client, message, model_id=12)
 
-__PLUGIN__ = "𝗔𝗜"
+__PLUGIN__ = "AI"
 
 __HELP__ = """
 🧠 Artificial Intelligence Functions:
