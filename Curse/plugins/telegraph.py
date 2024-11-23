@@ -154,7 +154,7 @@ sᴜᴄᴇssғᴜʟʟʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ 💘
     await m.delete()
     await message.reply_photo(photo=write,caption=caption)
 
-__PLUGIN__ = "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗣𝗛"
+__PLUGIN__ = "Telegraph"
 __HELP__ = """
 ** About Telegraph **.
 
