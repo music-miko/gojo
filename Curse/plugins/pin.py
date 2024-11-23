@@ -235,7 +235,7 @@ async def perma_pin(_, m: Message):
     return
 
 
-__PLUGIN__ = "𝗣𝗜𝗡"
+__PLUGIN__ = "Pin"
 
 __alt_name__ = ["pin", "unpin"]
 
