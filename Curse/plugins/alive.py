@@ -5,7 +5,7 @@ from sys import version_info
 from pyrogram import __version__ as pver
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-
+from Curse import UPTIME
 from Curse.bot_class import app
 from Curse import PREFIX_HANDLER as COMMAND_HANDLER
 
@@ -32,6 +32,7 @@ Suku = [
 
 @app.on_message(filters.command(["alive", "zinda ho"], COMMAND_HANDLER), group=4678)
 async def restart(client, m: Message):
+up = strftime("%Hh %Mm %Ss", gmtime(time() - UPTIME))
     await m.delete()
     await m.reply_photo(
         random.choice(StartPic),
@@ -44,6 +45,6 @@ async def restart(client, m: Message):
 
 🧚‍♂️ Bot version: Harry Potter 2.8
 🐍 Python-Telegram-Bot:21.6
-⚡ Uptime: 4 days,23h.""",
+⚡ Uptime: {up}""",
         reply_markup=InlineKeyboardMarkup(Suku),
     )
