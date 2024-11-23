@@ -283,7 +283,7 @@ async def msg_quotly_cmd(self: Client, ctx: Message):
     except Exception as e:
         return await ctx.reply(f"ERROR: {e}")
 
-__PLUGIN__ = "𝗤𝗨𝗢𝗧𝗟𝗬"
+__PLUGIN__ = "Quotly"
 __HELP__ = """
 *Quotly* :
 
