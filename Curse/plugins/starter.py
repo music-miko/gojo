@@ -135,8 +135,8 @@ Click on commands to learn more !"""
         [
           [
             InlineKeyboardButton(
-              "Connect me to pm", 
-              url=f"https://{Config.BOT_USERNAME}.t.me/",
+              "Click here for help", 
+              url=f"https://t.me/Harry_RoxBot?start=start",
             ),
           ],
         ],
@@ -177,10 +177,8 @@ async def commands_menu(_, q: CallbackQuery):
 Hello, .
 I'm here to help you manage your groups
 Commands available:
-× /start: Sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
-× /help: Gɪᴠᴇ's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ.
-
-You can use `$` and `!` in place of / as your prefix handler.
+ /start: Sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
+ /help: Gɪᴠᴇ's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ.
 """
 
         await q.edit_message_caption(
@@ -250,10 +248,8 @@ async def help_menu(_, m: Message):
 Hello, .
 I'm here to help you manage your groups
 Commands available:
-× /start: Sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
-× /help: Gɪᴠᴇ's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ.
-
-You can use `$` and `!` in place of / as your prefix handler.
+/start: Sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
+/help: Gɪᴠᴇ's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ.
 """
         else:
             keyboard = InlineKeyboardMarkup(
@@ -317,9 +313,9 @@ async def get_module_info(c: app, q: CallbackQuery):
 async def handle_details_callback(_, query: CallbackQuery):
     await query.answer()
     await query.message.edit_text(
-     """Cʟɪᴄᴋ ᴏɴ Dᴏɴᴀᴛᴇ 💸 ᴛᴏ Sᴜᴘᴘᴏʀᴛ Mʏ Tᴇᴀᴍ.
-     I'ᴍ Hᴇʀᴇ ᴛᴏ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘs ɪɴ ᴀ Hᴏʀɴʏ ᴀɴᴅ Eᴀsʏ Wᴀʏ
-     Aɴʏ Issᴜᴇs ᴏʀ Nᴇᴇᴅ Hᴇʟᴘ Rᴇʟᴀᴛᴇᴅ ᴛᴏ Mᴇ Vɪsɪᴛ Sᴜᴘᴘᴏʀᴛ Cʜᴀᴛ.""",
+     """Click On Donate 💸 to support my team. 
+I'm here to manage your groups in a horny and easy way
+any issues or need help related to me visit support. """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
