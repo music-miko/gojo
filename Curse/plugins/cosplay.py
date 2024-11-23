@@ -70,7 +70,7 @@ async def _id(client, message):
        caption=text)
 
 
-__PLUGIN__ = "𝗖𝗢𝗦𝗣𝗟𝗔𝗬"
+__PLUGIN__ = "Cosplay"
 __HELP__ = """
 **👘 Cosplay** :
 
