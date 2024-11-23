@@ -1,6 +1,7 @@
 import asyncio
 import random
 from sys import version_info
+from time import time, gmtime, strftime
 
 from pyrogram import __version__ as pver
 from pyrogram import filters
@@ -31,6 +32,7 @@ Suku = [
 
 
 @app.on_message(filters.command(["alive", "zinda ho"], COMMAND_HANDLER), group=4678)
+UPTIME = time()
 up = strftime("%Hh %Mm %Ss", gmtime(time() - UPTIME))
 async def restart(client, m: Message):
     await m.delete()
@@ -43,8 +45,8 @@ async def restart(client, m: Message):
 👑 My Creator: [Damian](t.me/about_tosu) 
 🧑‍💻 My Devs : [Tosu](t.me/itz_tusarr) 
 
-🧚‍♂️ Bot version: Harry Potter 2.8
-🐍 Python-Telegram-Bot:21.6
+🍃 Bot version: Harry Potter 2.8
+💫 Python-Telegram-Bot:21.6
 ⚡ Uptime: {up}
 
 𝗩𝗶𝘀𝗶𝘁 [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](http://t.me/Harry_PotterxSupport)""",
