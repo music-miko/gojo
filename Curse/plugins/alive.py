@@ -35,11 +35,16 @@ async def restart(client, m: Message):
     await m.delete()
     await m.reply_photo(
         random.choice(StartPic),
-        caption=f"""━━━━━━ 🝮✿🝮 ━━━━━━
-♛ Dᴇᴠᴏᴛᴇᴅ Tᴏ : [𝘿𝙖𝙢𝙞𝙖𝙣❤‍🩹🌙](https://t.me/its_damiann)
-» Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ : {pver}
-» Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ : {version_info[0]}.{version_info[1]}.{version_info[2]}
-» Bᴏᴛ Vᴇʀꜱɪᴏɴ : 3.0
-━━━━━━ 🝮✿🝮 ━━━━━━""",
+        caption=f"""👋 Hey There ㅤㅤㅤ🐾 
+
+✨ I'm Harry Potter
+🍀 I'm Working Fine as always 
+
+👑 My Creator: [Damian](t.me/about_tosu) 
+🧑‍💻 My Devs : [Tosu](t.me/itz_tusarr) 
+
+🧚‍♂️ Bot version: Harry Potter 2.8
+🐍 Python-Telegram-Bot:21.6
+⚡ Uptime: h:55m:52s""",
         reply_markup=InlineKeyboardMarkup(Suku),
     )
