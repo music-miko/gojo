@@ -296,7 +296,7 @@ async def lego(client, message):
         img.save(fname, "png")
 
         await client.send_photo(
-            message.chat.id, photo=fname, caption=f"🎨 𝗠𝗮𝗱𝗲 𝗕𝘆 **@Komi_RoxBot**"
+            message.chat.id, photo=fname, caption=f"🎨 𝗠𝗮𝗱𝗲 𝗕𝘆 **@Harry_Roxbot**"
         )
 
         await pesan.delete()
@@ -305,10 +305,10 @@ async def lego(client, message):
             os.remove(fname)
 
     except Exception as e:
-        await message.reply(f"Error. Report to @Lux_Bot_Support: {e}")
+        await message.reply(f"Error. Report to @HunterXsupport: {e}")
 
 
-__PLUGIN__ = "𝗟𝗢𝗚𝗢"
+__PLUGIN__ = "Logo"
 
 __HELP__ = """
 **🎨 Logo Maker**
