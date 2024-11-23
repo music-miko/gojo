@@ -114,7 +114,7 @@ async def del_msg(c: app, m: Message):
     return
 
 
-__PLUGIN__ = "𝗣𝗨𝗥𝗚𝗘"
+__PLUGIN__ = "Purge"
 
 __alt_name__ = ["purge", "del", "spurge"]
 
