@@ -222,7 +222,7 @@ async def googleimg_search(client: Client, message: Message):
     await message.delete()
 
 # ===================================================================================== #
-__PLUGIN__ = "𝗚𝗢𝗢𝗚𝗟𝗘"
+__PLUGIN__ = "Google"
 
 
 __alt_name__ = [
