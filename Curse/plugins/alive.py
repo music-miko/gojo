@@ -45,6 +45,6 @@ async def restart(client, m: Message):
 
 🧚‍♂️ Bot version: Harry Potter 2.8
 🐍 Python-Telegram-Bot:21.6
-⚡ Uptime: h:55m:52s""",
+⚡ Uptime: uptime """,
         reply_markup=InlineKeyboardMarkup(Suku),
     )
