@@ -19,8 +19,8 @@ from Curse.database.toggle_mongo import dwelcome_off, dwelcome_on, is_dwelcome_o
 from Curse.extras.utils import temp
 from Curse.utils.custom_filters import admin_filter
 
-BOT_USERNAME = "Komi_Roxbot"
-LOG_CHANNEL = -1001912086339
+BOT_USERNAME = "Harry_Roxbot"
+LOG_CHANNEL = -1002324687097
 
 
 def circle(pfp, size=(250, 250)):
@@ -115,7 +115,7 @@ async def member_has_joined(client, member: ChatMemberUpdated):
             temp.MELCOW[f"welcome-{chat_id}"] = await client.send_photo(
                 member.chat.id,
                 photo=welcomeimg,
-                caption=f"""Hᴇʏ ᴅᴇᴀʀ 💋 {mention}, Wᴇʟᴄᴏᴍᴇ ᴛᴏ {member.chat.title} Gʀᴏᴜᴘ. \n
+                caption=f"""Hᴇʏ ᴅᴇᴀʀ  {mention}, Wᴇʟᴄᴏᴍᴇ ᴛᴏ {member.chat.title} Gʀᴏᴜᴘ. \n
 ┏━━━━»»❀
 ♛ ɴᴀᴍᴇ : {first_name}
 ⍟ I'ᴅ : {user_id}
@@ -177,7 +177,7 @@ async def normal_welcome_callback(_, query: CallbackQuery, todo="commands"):
     )
 
 
-__PLUGIN__ = "𝗪𝗘𝗟𝗖𝗢𝗠𝗘"
+__PLUGIN__ = "Welcome"
 __alt_name__ = ["welcome", "dwelcome", "goodbye", "cleanservice"]
 __buttons__ = [
     [("Normal Welcome", "normal_welcome")],
