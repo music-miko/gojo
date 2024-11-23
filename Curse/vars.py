@@ -25,21 +25,21 @@ class Config:
         int(i)
         for i in config(
             "DEV_USERS",
-            default="6848223695",
+            default="7186437295",
         ).split(" ")
     ]
     SUDO_USERS = [
         int(i)
         for i in config(
             "SUDO_USERS",
-            default="7185106962",
+            default="6557496294",
         ).split(" ")
     ]
     WHITELIST_USERS = [
         int(i)
         for i in config(
             "WHITELIST_USERS",
-            default="7185106962",
+            default="6309921371",
         ).split(" ")
     ]
     GENIUS_API_TOKEN = config("GENIUS_API", default=None)
@@ -66,9 +66,9 @@ class Development:
     API_HASH = "fa6e0313afd8259094486d3256242102"  # Your APP_HASH from Telegram
     OWNER_ID = 6848223695  # Your telegram user id default to mine
     MESSAGE_DUMP = -1002023182491  # Your Private Group ID for logs
-    DEV_USERS = ["6965147961"]
+    DEV_USERS = ["6965147961", "7186437295"]
     SUDO_USERS = ["6864672519", "6606591031", "6557496294"]
-    WHITELIST_USERS = ["7185106962"]
+    WHITELIST_USERS = ["5692379500"]
     DB_URI = "mongodb+srv://sakibsk304:HKswQwkHU5mGlAUv@cluster0.w8xnr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # Your mongo DB URI
     DB_NAME = "Cluster0"  # Your DB name
     NO_LOAD = []
