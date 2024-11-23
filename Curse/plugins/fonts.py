@@ -200,7 +200,7 @@ async def style(c, m):
     except:
         pass
 
-__PLUGIN__ = "𝗙𝗢𝗡𝗧𝗦"
+__PLUGIN__ = "Fonts"
 
 __HELP__ = """
 
