@@ -35,8 +35,7 @@ async def restart(client, m: Message):
     await m.delete()
     await m.reply_photo(
         random.choice(StartPic),
-        caption=f"""👋 Hey There ㅤㅤㅤ🐾 
-
+        caption=f"""
 ✨ I'm Harry Potter
 🍀 I'm Working Fine as always 
 
@@ -45,6 +44,6 @@ async def restart(client, m: Message):
 
 🧚‍♂️ Bot version: Harry Potter 2.8
 🐍 Python-Telegram-Bot:21.6
-⚡ Uptime: uptime """,
+⚡ Uptime: 4 days,23h.""",
         reply_markup=InlineKeyboardMarkup(Suku),
     )
