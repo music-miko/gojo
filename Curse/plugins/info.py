@@ -231,7 +231,7 @@ async def close_info_button(c: app, callback_query: CallbackQuery):
     await callback_query.message.delete()
 
 
-__PLUGIN__ = "𝗜𝗡𝗙𝗢"
+__PLUGIN__ = "Info"
 __alt_name__ = [
     "info",
 ]
