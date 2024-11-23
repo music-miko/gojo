@@ -305,7 +305,7 @@ async def lego(client, message):
             os.remove(fname)
 
     except Exception as e:
-        await message.reply(f"Error. Report to @HunterXsupport: {e}")
+        await message.reply(f"Error. Report to @Harry_PotterxSupport: {e}")
 
 
 __PLUGIN__ = "Logo"
