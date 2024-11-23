@@ -369,7 +369,7 @@ async def warnlimit(_, m: Message):
     return
 
 
-__PLUGIN__ = "𝗪𝗔𝗥𝗡"
+__PLUGIN__ = "Warn"
 
 __alt_name__ = ["warn", "warning", "warns"]
 
