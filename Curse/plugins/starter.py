@@ -138,8 +138,7 @@ Click on commands to learn more !"""
         ],
       )
         
-      await m.reply_photo(
-        up = strftime("%Hh %Mm %Ss", gmtime(time() - UPTIME)), 
+      await m.reply_photo( 
         photo=str(choice(StartPic)),
         caption="I'm alive",
         reply_markup=kb,
