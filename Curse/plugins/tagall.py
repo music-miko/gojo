@@ -67,7 +67,7 @@ async def cancelcmd(_, message):
         await message.reply_text("**No Proccess Ongoing!**")  
         return       
 
-__PLUGIN__ = "𝗧𝗔𝗚-𝗔𝗟𝗟"
+__PLUGIN__ = "Tagall"
 
 __HELP__ = """
 Tag All:
