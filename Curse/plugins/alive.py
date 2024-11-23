@@ -44,7 +44,7 @@ async def restart(client, m: Message):
 ✨ I'm Harry Potter
 🍀 I'm Working Fine as always 
 
-👑 My Creator: [Damian](t.me/about_tosu) 
+👑 My Creator: [Damian](t.me/about_tosuu) 
 🧑‍💻 My Devs : [Tosu](t.me/itz_tusarr) 
 
 🍃 Bot version: Harry Potter 2.8
