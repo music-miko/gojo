@@ -492,7 +492,7 @@ async def flood_watcher(c: app, m: Message):
         return
 
 
-__PLUGIN__ = "𝗙𝗟𝗢𝗢𝗗"
+__PLUGIN__ = "Flood"
 __alt_name__ = [
     "anit-flood",
     "flood",
