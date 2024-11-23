@@ -119,7 +119,7 @@ async def normal_welcome_callback(_, query: CallbackQuery, todo="commands"):
     )
 
 
-__PLUGIN__ = "𝗡𝗘𝗞𝗢𝗦"
+__PLUGIN__ = "Nekos"
 __buttons__ = [
     [("More", "more_nekos")],
 ]
