@@ -184,7 +184,7 @@ async def report_buttons(c: app, q: CallbackQuery):
     return
 
 
-__PLUGIN__ = "𝗥𝗘𝗣𝗢𝗥𝗧"
+__PLUGIN__ = "Report"
 
 __alt_name__ = ["reports", "report"]
 
