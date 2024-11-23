@@ -75,7 +75,7 @@ class Development:
     GENIUS_API_TOKEN = "gIgMyTXuwJoY9VCPNwKdb_RUOA_9mCMmRlbrrdODmNvcpslww_2RIbbWOB8YdBW9"
     RMBG_API = ""
     PREFIX_HANDLER = ["!", ".", "harry ", "harry ", "/"]
-    SUPPORT_GROUP = "HunterXsupport"
+    SUPPORT_GROUP = "Harry_PotterxSupport"
     SUPPORT_CHANNEL = "The_Hogwart"
     VERSION = "3.O"
     TIME_ZONE = 'Asia/Kolkata'
