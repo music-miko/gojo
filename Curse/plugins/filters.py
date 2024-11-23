@@ -297,7 +297,7 @@ async def filters_watcher(c: app, m: Message):
     return
 
 
-__PLUGIN__ = "𝗙𝗜𝗟𝗧𝗘𝗥𝗦"
+__PLUGIN__ = "Filters"
 
 __HELP__ = """
 **💠 Filters**
