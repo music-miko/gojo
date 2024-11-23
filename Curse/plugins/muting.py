@@ -672,7 +672,7 @@ async def unmutebutton(c: app, q: CallbackQuery):
     return
 
 
-__PLUGIN__ = "𝗠𝗨𝗧𝗘"
+__PLUGIN__ = "Mute"
 
 __alt_name__ = [
     "mute",
