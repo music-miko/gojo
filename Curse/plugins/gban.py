@@ -28,7 +28,7 @@ async def gban(c: app, m: Message):
         return
     if len(m.text.split()) == 1:
         await m.reply_text(
-            text="<b>How to pban?</b> \n <b>Answer:</b> <code>/gban user_id reason</code>"
+            text="<b>How to pban?</b> \n <b>Answer:</b> <code>/pban user_id reason</code>"
         )
         return
 
@@ -86,7 +86,7 @@ async def gban(c: app, m: Message):
     return
 
 
-@app.on_message(filters.command(["ungban", "unglobalban", "globalunban"], C_HANDLER))
+@app.on_message(filters.command(["unpban", "unglobalban", "globalunban"], C_HANDLER))
 async def ungban(c: app, m: Message):
     if m.from_user.id not in SUPPORT_STAFF:
         return
