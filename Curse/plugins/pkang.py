@@ -10,7 +10,7 @@ from Curse.bot_class import app
 @app.on_message(filters.command("pkang"), group=10203)
 async def _packkang(app, message):
     """
-    @MaybeSuraj on telegram. who helped me in making this module.
+    @its_damiann on telegram. who helped me in making this module.
     """
     txt = await message.reply_text("Processing....")
     if not message.reply_to_message:
@@ -69,7 +69,7 @@ async def _packkang(app, message):
                 [
                     [
                         InlineKeyboardButton(
-                            "𝗣𝗔𝗖𝗞", url=f"http://t.me/addstickers/{short_name}"
+                            "Pack", url=f"http://t.me/addstickers/{short_name}"
                         )
                     ]
                 ]
