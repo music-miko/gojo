@@ -115,7 +115,7 @@ async def fun_memes_callback(_, query: CallbackQuery, todo="commands"):
     )
 
 
-__PLUGIN__ = "𝗙𝗨𝗡"
+__PLUGIN__ = "Fun"
 __buttons__ = [
     [
         ("Fun Games", "fun_games"),
