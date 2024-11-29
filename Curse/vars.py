@@ -61,7 +61,7 @@ class Config:
 class Development:
     """Development class for variables."""
     LOGGER = True
-    BOT_TOKEN = "7858576961:AAF1hAjEXIuvhQz9IuObj0RfrZ6BGyxBYMM"
+    BOT_TOKEN = "7858576961:AAF-zZjZv6mO-mf1xIwn-rNPJXzS9DPJ_vA"
     API_ID = 9552179  # Your APP_ID from Telegram
     API_HASH = "fa6e0313afd8259094486d3256242102"  # Your APP_HASH from Telegram
     OWNER_ID = 6848223695  # Your telegram user id default to mine
@@ -76,7 +76,7 @@ class Development:
     RMBG_API = ""
     PREFIX_HANDLER = ["!", ".", "harry ", "harry ", "/"]
     SUPPORT_GROUP = "Harry_PotterxSupport"
-    SUPPORT_CHANNEL = "The_Hogwart"
+    SUPPORT_CHANNEL = "Hogwarts_updates"
     VERSION = "3.O"
     TIME_ZONE = 'Asia/Kolkata'
     BDB_URI = "mongodb+srv://orewauzumaki:orewauzumaki@cluster0.bmhengh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
