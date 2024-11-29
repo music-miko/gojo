@@ -41,7 +41,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
         [
             [
                 (
-                    "Add me to your group ➕",
+                    "➕ Add Harry to your group ➕",
                     f"https://t.me/{Config.BOT_USERNAME}?startgroup=new",
                     "url",
                 ),
