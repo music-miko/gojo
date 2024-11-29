@@ -23,8 +23,8 @@ StartPic = [
 
 Suku = [
     [
-        InlineKeyboardButton(text=" Sᴜᴘᴘᴏʀᴛ ", url="http://t.me/Harry_PotterxSupport"),
-        InlineKeyboardButton(text=" Uᴘᴅᴀᴛᴇs ", url=f"https://t.me/the_hogwart"),
+        InlineKeyboardButton(text=" Support ", url="http://t.me/Harry_PotterxSupport"),
+        InlineKeyboardButton(text=" updates ", url=f"https://t.me/hogwarts_updates"),
     ],
     [
         InlineKeyboardButton(
@@ -41,15 +41,12 @@ async def restart(client, m: Message):
     await m.reply_photo(
         random.choice(StartPic),
         caption=f"""
-✨ I'm Harry Potter
+✨ I'm [Harry Potter](t.me/Harry_RoxBot) 
 🍀 I'm Working Fine as always 
-
-👑 My Creator: [Damian](t.me/about_tosuu) 
-🧑‍💻 My Devs : [Tosu](t.me/itz_tusarr) 
 
 🍃 Bot version: Harry Potter 2.8
 💫 Python-Telegram-Bot:21.6
-⚡ Uptime: {up}
+⚡ Uptime: 1day, 21h, 41m
 
 𝗩𝗶𝘀𝗶𝘁 [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](http://t.me/Harry_PotterxSupport)""",
         reply_markup=InlineKeyboardMarkup(Suku),
