@@ -231,7 +231,7 @@ async def help_menu(_, m: Message):
                     [
                       InlineKeyboardButton(
                         "Help",
-                        url=f"t.me/{Config.BOT_USERNAME}?start={help_option}",
+                        url=f"t.me/Harry_RoxBot?start=help",
                         ),
                     ],
                   ],
@@ -253,7 +253,7 @@ Commands available:
                 [
                   InlineKeyboardButton(
                     "Help", 
-                    url=f"t.me/{Config.BOT_USERNAME}?start=start_help",
+                    url=f"t.me/Harry_RoxBot?start=start_help",
                   ),
                 ],
               ],
@@ -333,7 +333,7 @@ async def handle_how_to_use_callback(_, query: CallbackQuery):
 
 I'm here to make your group management fun and easy! I have lots of handy features, such as flood control, a warning system, a note keeping system, and even replies on predetermined filters.
 
- Join [Updates Channel](t.me/the_hogwart) To Keep Yourself Updated About me.
+ Join [Updates Channel](t.me/hogwarts_updates) To Keep Yourself Updated About me.
 
 Any issues or need help related to me? Come visit us in [Support Chat](http://t.me/Harry_PotterxSupport) 
 
@@ -342,7 +342,7 @@ You Can Know More About Me By Clicking The Below Buttons.
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Add Me to Your Group", url="https://t.me/{Config.BOT_USERNAME}?startgroup=new"),
+                    InlineKeyboardButton("Add Me to Your Group", url="https://t.me/Harry_RoxBot?startgroup=new"),
                 ],
                 [InlineKeyboardButton("Back", callback_data="start_back")],
             ],
