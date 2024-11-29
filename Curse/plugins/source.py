@@ -14,7 +14,7 @@ async def repo(_, message):
     await message.reply_photo(
         photo="https://telegra.ph/file/0e1d42b86f4a167972839-844e0c51a92326ea40.jpg",
         caption=f"""✨ **ʜᴇʏ {message.from_user.mention},**
-**ʀᴇᴘᴏ ᴏᴡɴᴇʀ  : [𝘿𝙖𝙢𝙞𝙖𝙣❤‍🩹🌙](https://t.me/its_damiann)**
+**ʀᴇᴘᴏ ᴏᴡɴᴇʀ  : [Harry Potter](https://t.me/harry_roxbot)**
 **ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{y()}`
 **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀꜱɪᴏɴ :** `{z}`
 **ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ :** `3.0`
