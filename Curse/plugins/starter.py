@@ -231,7 +231,7 @@ async def help_menu(_, m: Message):
                     [
                       InlineKeyboardButton(
                         "Help",
-                        url=f"t.me/Harry_RoxBot?start=help",
+                        url=f"t.me/Harry_RoxBot?start={help_option}",
                         ),
                     ],
                   ],
