@@ -79,7 +79,7 @@ class Development:
     SUPPORT_CHANNEL = "Hogwarts_updates"
     VERSION = "3.O"
     TIME_ZONE = 'Asia/Kolkata'
-    BDB_URI = "mongodb+srv://Valentina:Valentina@valentina.pkv2i2s.mongodb.net/?retryWrites=true&w=majority&appName=valentina"
+    BDB_URI = "mongodb+srv://orewauzumaki:orewauzumaki@cluster0.bmhengh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     WORKERS = 8
     BOT_USERNAME = "Harry_RoxBot"
     BOT_ID = "7858576961"
