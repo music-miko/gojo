@@ -151,8 +151,8 @@ async def kang_sticker(self: Client, ctx: Message, strings):
     packnum = 0
     packname_found = False
     resize = False
-    animated = False
-    videos = False
+    animated = True
+    videos = True 
     convert = False
     reply = ctx.reply_to_message
     user = await self.resolve_peer(ctx.from_user.username or ctx.from_user.id)
