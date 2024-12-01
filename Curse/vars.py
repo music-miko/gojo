@@ -61,7 +61,7 @@ class Config:
 class Development:
     """Development class for variables."""
     LOGGER = True
-    BOT_TOKEN = "7858576961:AAE6nrUb0sK4QoWgIfO0vpAlBxV2NSHUdQ0"
+    BOT_TOKEN = "7858576961:AAEE8bpbKIen_bBhZjxl6OSCF3a_Gi1EuWI"
     API_ID = 9552179  # Your APP_ID from Telegram
     API_HASH = "fa6e0313afd8259094486d3256242102"  # Your APP_HASH from Telegram
     OWNER_ID = 6848223695  # Your telegram user id default to mine
