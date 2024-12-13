@@ -32,7 +32,7 @@ class Config:
         int(i)
         for i in config(
             "SUDO_USERS",
-            default="6557496294",
+            default="6606591031",
         ).split(" ")
     ]
     WHITELIST_USERS = [
@@ -67,7 +67,7 @@ class Development:
     OWNER_ID = 6848223695  # Your telegram user id default to mine
     MESSAGE_DUMP = -1002023182491  # Your Private Group ID for logs
     DEV_USERS = ["6965147961", "7186437295", " 6606591031"]
-    SUDO_USERS = ["6864672519", "6606591031", "6557496294", "6309921371"]
+    SUDO_USERS = ["5350261891", "6557496294", "6309921371"]
     WHITELIST_USERS = ["5692379500"]
     DB_URI = "mongodb+srv://sakibsk304:HKswQwkHU5mGlAUv@cluster0.w8xnr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # Your mongo DB URI
     DB_NAME = "Cluster0"  # Your DB name
