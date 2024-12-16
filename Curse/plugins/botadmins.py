@@ -16,7 +16,7 @@ async def botstaff(c: app, m: Message):
         return
     try:
         owner = await c.get_users(OWNER_ID)
-        reply = f"<b>✪ 𝗙𝗔𝗧𝗛𝗘𝗥 𝗢𝗙 𝗠𝗔𝗚𝗜𝗖𝗜𝗔𝗡𝗦 :</b> {(await mention_html(owner.first_name, OWNER_ID))} (<code>{OWNER_ID}</code>)\n"
+        reply = f"<b>𝗙𝗔𝗧𝗛𝗘𝗥 𝗢𝗙 𝗠𝗔𝗚𝗜𝗖𝗜𝗔𝗡𝗦 :</b> {(await mention_html(owner.first_name, OWNER_ID))} (<code>{OWNER_ID}</code>)\n"
     except RPCError:
         pass
     true_dev = list(set(DEV_USERS) - {OWNER_ID})
