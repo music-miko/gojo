@@ -139,7 +139,7 @@ async def user_info(c: app, user, already=False):
                 last_date = "User is offline"
 
     caption = f"""
-<b><i>╒═══「 𝗨𝗦𝗘𝗥 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡 」</b></i>
+<b><i>「 𝗠𝗔𝗚𝗜𝗖𝗔𝗟 𝗜𝗡𝗙𝗢 」</b></i>
 
 <b>🆔 Usᴇʀ ɪᴅ</b>: <code>{user_id}</code>
 <b>📎 Pʀᴏғɪʟᴇ Lɪɴᴋ</b>: <a href='tg://user?id={user_id}'>Click Here🚪</a>
@@ -187,7 +187,7 @@ async def info_func(c: app, message: Message):
         await m.delete()
         await sleep(2)
         reply_markup = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("𝗖𝗟𝗢𝗦𝗘", callback_data="close_info")]]
+            [[InlineKeyboardButton("Close", callback_data="close_info")]]
         )
         return await message.reply_text(
             info_caption, disable_web_page_preview=True, reply_markup=reply_markup
@@ -199,7 +199,7 @@ async def info_func(c: app, message: Message):
     await sleep(2)
     try:
         reply_markup = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("𝗖𝗟𝗢𝗦𝗘", callback_data="close_info")]]
+            [[InlineKeyboardButton("Close", callback_data="close_info")]]
         )
         await message.reply_photo(
             photo, caption=info_caption, quote=False, reply_markup=reply_markup
