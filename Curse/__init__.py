@@ -26,7 +26,7 @@ file_handler = FileHandler(filename=LOGFILE)
 stdout_handler = StreamHandler(stdout)
 
 basicConfig(
-    format="%(asctime)s - [Sukuna] - %(levelname)s - %(message)s",
+    format="%(asctime)s - [Tosu] - %(levelname)s - %(message)s",
     level=INFO,
     handlers=[file_handler, stdout_handler],
 )
