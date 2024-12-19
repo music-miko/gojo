@@ -17,7 +17,7 @@ from pyrogram.types import Message
 
 from Curse import (BOT_TOKEN, LOG_DATETIME, LOGFILE, LOGGER, MESSAGE_DUMP,
                     OWNER_ID, UPTIME)
-from Curse.bot_class import pbot
+from Curse.bot_class import app
 from Curse.database import MongoDB
 from Curse.database.chats_db import Chats
 from Curse.database.support_db import SUPPORTS
@@ -38,7 +38,7 @@ def can_change_type(curr, to_user):
     else:
         return False
 
-@pbot.on_message(command("ping", sudo_cmd=True))
+@app.on_message(command("ping", sudo_cmd=True))
 async def ping(_, m: Message):
     LOGGER.info(f"{m.from_user.id} used ping cmd in {m.chat.id}")
     start = time()
@@ -47,13 +47,13 @@ async def ping(_, m: Message):
     await replymsg.edit_text(f"<b>Pong!</b>\n{delta_ping * 1000:.3f} ms")
     return
 
-@pbot.on_message(command("uptime", dev_cmd=True))
+@app.on_message(command("uptime", dev_cmd=True))
 async def uptime(_, m: Message):
     up = strftime("%Hh %Mm %Ss", gmtime(time() - UPTIME))
     await m.reply_text(text=f"<b>Uptime:</b> <code>{up}</code>", quote=True)
     return
 
-@pbot.on_message(command("hcast", dev_cmd=True))
+@app.on_message(command("hcast", dev_cmd=True))
 async def chat_broadcast(c: app, m: Message):
     if m.reply_to_message:
         msg = m.reply_to_message.text.markdown
@@ -89,7 +89,7 @@ async def chat_broadcast(c: app, m: Message):
 
     return
 
-@pbot.on_message(command(["fcast"], dev_cmd=True))
+@app.on_message(command(["fcast"], dev_cmd=True))
 async def forward_type_broadcast(c: app, m: Message):
     repl = m.reply_to_message
     if not repl:
