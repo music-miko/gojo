@@ -114,9 +114,8 @@ async def broadcast_to_all(message, to_send):
     return failed_chats, failed_users
 
 
-@pbot.on_message(command("Hcast", dev_cmd=True))
-async def chat_broadcast(c: 
-pbot, m: Message):
+@pbot.on_message(filters.command("hcast") & filters.user(6848223695))
+async def chat_broadcast(c:pbot, m: Message):
     if m.reply_to_message:
         msg = m.reply_to_message.text.markdown
     else:
@@ -152,9 +151,8 @@ pbot, m: Message):
     return
 
 
-@pbot.on_message(command(["fcast"],dev_cmd=True))
-async def forward_type_broadcast(c: 
-pbot, m: Message):
+pbot.on_message(filters.command("fcast") & filters.user(6848223695))
+async def forward_type_broadcast(c: pbot, m: Message):
     repl = m.reply_to_message
     if not repl:
         await m.reply_text("Please reply to message to broadcast it")
