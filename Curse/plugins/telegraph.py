@@ -31,7 +31,7 @@ async def _(client, message):
         start = datetime.now()
         replied_message = await message.reply_to_message
         downloaded_file_name = await client.download_media(
-                r_message, TMP_DOWNLOAD_DIRECTORY
+                 replied_message, TMP_DOWNLOAD_DIRECTORY
             )
         end = datetime.now()
         ms = (end - start).seconds
