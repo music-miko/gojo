@@ -24,7 +24,7 @@ TMP_DOWNLOAD_DIRECTORY = "catbox/"
 
 
 @app.on_message(filters.command(["tgm", "tmg", "telegraph"], prefixes="/"), group=9990009)
-async def _(event):
+async def _(client, message):
     if event.fwd_from:
         return
     if event.reply_to_msg_id:
