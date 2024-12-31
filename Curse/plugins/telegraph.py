@@ -29,7 +29,7 @@ async def _(client, message):
         return
     if message.reply_to_message_id:
         start = datetime.now()
-        replied_message = await message.reply_to_message()
+        replied_message = await message.reply_to_message
         downloaded_file_name = await client.download_media(
                 r_message, TMP_DOWNLOAD_DIRECTORY
             )
