@@ -30,7 +30,7 @@ async def _(client, message):
     if event.reply_to_msg_id:
         start = datetime.now()
         r_message = await event.get_reply_message()
-        downloaded_file_name = await telethn.download_media(
+        downloaded_file_name = await client.download_media(
                 r_message, TMP_DOWNLOAD_DIRECTORY
             )
         end = datetime.now()
