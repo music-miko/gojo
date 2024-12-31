@@ -4,7 +4,6 @@ import os
 from datetime import datetime
 
 from PIL import Image
-import telethn
 from Curse.bot_class import app
 
 from catbox import CatboxUploader
