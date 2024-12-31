@@ -14,10 +14,13 @@ from telegraph import Telegraph, exceptions, upload_file
 
 from Curse.bot_class import app
 
+
+
+
 BOT_USERNAME = "harry_RoxBot"
-TMP_DOWNLOAD_DIRECTORY = "tg-File/"
+TMP_DOWNLOAD_DIRECTORY = "catbox/"
 babe = "harry_RoxBot"  # ᴅᴏɴ'ᴛ ᴇᴅɪᴛ ᴛʜɪᴀ ʟɪɴᴇ
-telegraph = Telegraph()
+telegraph = CatboxUploader()
 r = telegraph.create_account(short_name=babe)
 auth_url = r["auth_url"]
 
@@ -49,8 +52,7 @@ async def telegraph_upload(client, message):
                 os.remove(downloaded_file_name)
                 await h.edit_text(
                     f"""
-➼ **Uploaded to [Telegraph](https://telegra.ph{media_urls[0]}) in {ms + ms_two} seconds.**\n 
-➼ **Copy Link :** `https://telegra.ph/{media_urls[0]}`""",
+➼ **Uploaded to [Catbox]({media_urls}) in {ms + ms_two} seconds**\n"""
                     disable_web_page_preview=False,
                 )
     else:
