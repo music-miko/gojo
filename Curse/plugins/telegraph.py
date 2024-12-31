@@ -27,7 +27,7 @@ TMP_DOWNLOAD_DIRECTORY = "catbox/"
 async def _(client, message):
     if message.forward_from:
         return
-    if message.reply_to_msg_id:
+    if message.reply_to_message_id:
         start = datetime.now()
         r_message = await client.get_reply_message()
         downloaded_file_name = await client.download_media(
