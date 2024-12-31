@@ -25,17 +25,17 @@ TMP_DOWNLOAD_DIRECTORY = "catbox/"
 
 @app.on_message(filters.command(["tgm", "tmg", "telegraph"], prefixes="/"), group=9990009)
 async def _(client, message):
-    if event.fwd_from:
+    if message.forward_from:
         return
-    if event.reply_to_msg_id:
+    if message.reply_to_msg_id:
         start = datetime.now()
-        r_message = await event.get_reply_message()
+        r_message = await client.get_reply_message()
         downloaded_file_name = await client.download_media(
                 r_message, TMP_DOWNLOAD_DIRECTORY
             )
         end = datetime.now()
         ms = (end - start).seconds
-        h = await event.reply(
+        h = await client.reply(
             f"Downloaded to {downloaded_file_name} in {ms} seconds."
         )
         if downloaded_file_name.endswith((".webp")):
@@ -54,7 +54,7 @@ async def _(client, message):
                 link_preview=True,
             )       
     else:
-        await event.reply("Reply to a message to get a permanent catbox link.")
+        await client.reply("Reply to a message to get a permanent catbox link.")
 
 
 def resize_image(image):
