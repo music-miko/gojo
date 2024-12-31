@@ -4,8 +4,8 @@ import os
 from datetime import datetime
 
 from PIL import Image
-from Dazai import telethn
-from Dazai.bot_class import app
+from Curse import telethn
+from Curse.bot_class import app
 
 from catbox import CatboxUploader
 
