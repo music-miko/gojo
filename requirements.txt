@@ -52,4 +52,4 @@ Python_ARQ
 rich
 gtts
 openai==0.28.0
-Catbox
+catbox-uploader
