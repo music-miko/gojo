@@ -29,7 +29,7 @@ async def _(client, message):
         return
     if message.reply_to_message_id:
         start = datetime.now()
-        r_message = await client.get_reply_message()
+        replied_message = await message.reply_to_message()
         downloaded_file_name = await client.download_media(
                 r_message, TMP_DOWNLOAD_DIRECTORY
             )
@@ -54,7 +54,7 @@ async def _(client, message):
                 link_preview=True,
             )       
     else:
-        await client.reply("Reply to a message to get a permanent catbox link.")
+        await message.reply("Reply to a message to get a permanent catbox link.")
 
 
 def resize_image(image):
